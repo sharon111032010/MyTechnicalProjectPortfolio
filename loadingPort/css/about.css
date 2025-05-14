@@ -1,0 +1,46 @@
+/* 關於我區 */
+.about {
+    padding: 80px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-img {
+    flex: 0 0 40%;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-text {
+    flex: 0 0 55%;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-text h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--border-color);
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}

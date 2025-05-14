@@ -1,0 +1,322 @@
+:root {
+    --background-color: #F4F4F4;
+    --text-color: #333333;
+    --accent-color: #FF6B6B;
+    --link-color: #F6D6E1;
+    --highlight-color: #FF8FB1;
+    --border-color: #FFF0F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
+}
+
+/* 作品詳情樣式 */
+.project-detail {
+    padding: 120px 0 80px;
+}
+
+.project-header {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.project-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--border-color);
+}
+
+.project-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-category {
+    background-color: var(--link-color);
+    color: var(--text-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project-date {
+    color: #666;
+    font-size: 14px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.project-tag {
+    background-color: #eee;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.project-image-main {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.project-description {
+    font-size: 16px;
+}
+
+.project-description h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.project-description h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--border-color);
+}
+
+.project-description p {
+    margin-bottom: 20px;
+}
+
+.project-description ul,
+.project-description ol {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.project-description li {
+    margin-bottom: 10px;
+}
+
+.project-sidebar {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 120px;
+}
+
+.project-info-item {
+    margin-bottom: 20px;
+}
+
+.project-info-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.project-gallery {
+    margin-top: 50px;
+}
+
+.gallery-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.gallery-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--border-color);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.nav-previous,
+.nav-next {
+    max-width: 45%;
+}
+
+.nav-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.nav-project-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+/* 響應式設計 */
+@media (max-width: 992px) {
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-sidebar {
+        position: static;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .project-image-main {
+        height: 300px;
+    }
+}

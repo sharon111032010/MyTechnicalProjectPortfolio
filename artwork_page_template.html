@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳雪葶作品集 - 作品詳情</title>
+    <link rel="stylesheet" href="./css/artwork_page-template.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <div id="nav-placeholder"></div>
+
+    <script>
+        // 用 JavaScript 載入 nav.html
+        fetch('./loadingPort/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+    <!-- <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="/api/placeholder/40/40" alt="陳雪葶 Logo">
+                陳雪葶作品集
+            </a>
+            <div class="nav-links">
+                <a href="index.html">首頁</a>
+                <a href="about.html">關於我</a>
+                <a href="portfolio_page.html">作品展示</a>
+                <a href="journey.html">成長歷程</a>
+                <a href="contact.html">聯絡我</a>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- 主要內容 -->
+    <div class="main-content">
+        <!-- 麵包屑導航 -->
+        <div class="breadcrumb">
+            <a href="index.html">首頁</a> > <a href="portfolio.html">作品展示</a> > 專案名稱
+        </div>
+
+        <!-- 作品標題與基本信息 -->
+        <div class="project-header">
+            <h1 class="project-title">專案標題</h1>
+            <div class="project-meta">
+                <span><i>📅</i> 完成日期: 2023年12月</span>
+                <span><i>⏱️</i> 項目時長: 3個月</span>
+                <span><i>👤</i> 角色: 主要開發者</span>
+            </div>
+            <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Python</span>
+                <span class="tag">響應式設計</span>
+            </div>
+        </div>
+
+        <!-- 作品圖片或展示區 -->
+        <div class="project-showcase">
+            <img src="/api/placeholder/1200/600" alt="專案展示圖" class="showcase-image">
+        </div>
+
+        <!-- 作品描述和詳情 -->
+        <div class="project-description">
+            <div class="description-section">
+                <h2 class="section-title">專案概述</h2>
+                <div class="description-content">
+                    <p>此處為專案的整體概述介紹，說明專案的目的、背景和主要功能。專案的設計理念、使用場景以及目標用戶群體等資訊也可以在這裡提及。這裡的文字內容可以根據不同的專案類型進行調整，展示出專案的獨特之處和創新點。</p>
+                    <p>可以多段落詳細說明專案的各個方面，確保讀者能夠全面了解這個專案。這裡的文字應該簡潔明了，避免使用過多的專業術語，使不同背景的讀者都能理解。</p>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">技術細節</h2>
+                <div class="description-content">
+                    <p>在這個部分，你可以詳細說明專案中使用的技術和工具，以及實現的功能和解決的技術難題。這裡應該包含較為專業的技術說明，可以使用列表來呈現具體的技術點。</p>
+                    
+                    <div class="tech-specs">
+                        <div class="tech-item">
+                            <div class="tech-name">前端技術</div>
+                            <div class="tech-detail">HTML5, CSS3, JavaScript, React</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">後端技術</div>
+                            <div class="tech-detail">Python, Flask, MongoDB</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-name">其他工具</div>
+                            <div class="tech-detail">Git, Figma, AWS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">項目過程</h2>
+                <div class="description-content">
+                    <p>此處可以說明專案的開發過程，包括從需求分析到最終上線的各個階段。可以使用時間線的形式來呈現專案的重要里程碑。</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年9月</div>
+                            <div class="timeline-content">
+                                <h4>項目啟動</h4>
+                                <p>確定項目需求和目標，進行初步調研和可行性分析。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年10月</div>
+                            <div class="timeline-content">
+                                <h4>設計與規劃</h4>
+                                <p>完成UI設計和系統架構設計，確定技術方案。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年11月</div>
+                            <div class="timeline-content">
+                                <h4>開發階段</h4>
+                                <p>進行前後端開發，實現核心功能和特性。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023年12月</div>
+                            <div class="timeline-content">
+                                <h4>測試與上線</h4>
+                                <p>進行系統測試、修復問題，最終完成項目並上線。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">重點功能展示</h2>
+                <div class="description-content">
+                    <p>在這個部分，你可以展示專案的重點功能和特色，可以使用圖片和說明文字相結合的方式。</p>
+                    
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="/api/placeholder/400/300" alt="功能展示1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="/api/placeholder/400/300" alt="功能展示2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="/api/placeholder/400/300" alt="功能展示3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="/api/placeholder/400/300" alt="功能展示4" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2 class="section-title">反思與收穫</h2>
+                <div class="description-content">
+                    <p>在這個部分，你可以分享在專案過程中的反思和收穫，包括遇到的挑戰、解決的問題、學到的知識和技能等。這部分可以展示你的成長過程和專業素養。</p>
+                    <p>這裡可以是較為個人化的內容，分享你的感悟和經驗，讓讀者了解你作為創作者的思考方式和工作態度。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 項目連結 -->
+        <div class="project-links">
+            <a href="#" class="project-link"><i>🔗</i> 查看完整專案</a>
+            <a href="#" class="project-link"><i>💻</i> GitHub 代碼倉庫</a>
+            <a href="#" class="project-link secondary-link"><i>📋</i> 專案文檔</a>
+        </div>
+
+        <!-- 相關作品 -->
+        <div class="related-projects">
+            <h2 class="related-title">相關作品</h2>
+            <div class="related-grid">
+                <div class="related-item">
+                    <img src="/api/placeholder/400/200" alt="相關作品1" class="related-image">
+                    <div class="related-info">
+                        <h3 class="related-name">相關專案標題1</h3>
+                        <div class="related-category">Web 開發</div>
+                    </div>
+                </div>
+                <div class="related-item">
+                    <img src="/api/placeholder/400/200" alt="相關作品2" class="related-image">
+                    <div class="related-info">
+                        <h3 class="related-name">相關專案標題2</h3>
+                        <div class="related-category">Python 專案</div>
+                    </div>
+                </div>
+                <div class="related-item">
+                    <img src="/api/placeholder/400/200" alt="相關作品3" class="related-image">
+                    <div class="related-info">
+                        <h3 class="related-name">相關專案標題3</h3>
+                        <div class="related-category">UI/UX 設計</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>陳雪葶作品集</h3>
+                <p>展示我的專業技能、項目成果和成長歷程。</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i>f</i></a>
+                    <a href="#" class="social-icon"><i>in</i></a>
+                    <a href="#" class="social-icon"><i>g</i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>快速導航</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="about.html">關於我</a></li>
+                    <li><a href="portfolio.html">作品展示</a></li>
+                    <li><a href="journey.html">成長歷程</a></li>
+                    <li><a href="contact.html">聯絡我</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>聯絡方式</h3>
+                <ul class="footer-links">
+                    <li>Email: your.email@example.com</li>
+                    <li>電話: +886 912 345 678</li>
+                    <li>地址: 台灣新北市</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                © 2025 陳雪葶作品集. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

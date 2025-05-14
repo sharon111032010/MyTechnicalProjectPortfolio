@@ -1,0 +1,49 @@
+/* 主內容區 */
+        .hero {
+                height: 90vh;
+                display: flex;
+                align-items: center;
+                background-image: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.7)), url('https://via.placeholder.com/1500x900');
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .hero-content {
+                max-width: 600px;
+            }
+            
+            .hero h1 {
+                font-size: 48px;
+                margin-bottom: 20px;
+                position: relative;
+            }
+            
+            .hero h1::before {
+                content: "";
+                position: absolute;
+                left: -20px;
+                top: 0;
+                height: 100%;
+                width: 4px;
+                background-color: var(--border-color);
+            }
+            
+            .hero p {
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+            
+            .btn {
+                display: inline-block;
+                background-color: var(--accent-color);
+                color: white;
+                padding: 12px 25px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: 500;
+                transition: background-color 0.3s ease;
+            }
+            
+            .btn:hover {
+                background-color: #e05c5c;
+            }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題研究 - 陳雪葶作品集</title>
+    <link rel="stylesheet" href="./css/project-detail-page.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <script>
+        // 用 JavaScript 載入 nav.html
+        fetch('./loadingPort/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+    
+    <!-- <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">陳雪葶 | 作品集</a>
+                <ul class="nav-links">
+                    <li><a href="index.html#about">關於我</a></li>
+                    <li><a href="index.html#works">作品展示</a></li>
+                    <li><a href="index.html#skills">專業技能</a></li>
+                    <li><a href="index.html#timeline">成長歷程</a></li>
+                    <li><a href="index.html#blog">部落格</a></li>
+                    <li><a href="index.html#contact">聯絡我</a></li>
+                </ul>
+            </nav>
+        </div> -->
+    </header>
+
+    <main>
+        <section class="project-detail">
+            <div class="container">
+                <div class="project-header">
+                    <h1 class="project-title">資料分析與機器學習結合的圖像識別系統</h1>
+                    <div class="project-meta">
+                        <div class="project-category">專題研究</div>
+                        <div class="project-date">完成日期: 2024年3月</div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">機器學習</span>
+                        <span class="project-tag">神經網絡</span>
+                        <span class="project-tag">圖像識別</span>
+                        <span class="project-tag">資料分析</span>
+                    </div>
+                </div>
+
+                <div class="project-image-main" style="background-image: url('https://via.placeholder.com/1200x600');"></div>
+
+                <div class="project-content">
+                    <div class="project-description">
+                        <h2>專案概述</h2>
+                        <p>這個專題研究專注於結合資料分析技術和機器學習演算法，開發一個可靠的圖像識別系統。該系統能夠識別和分類各種物體、場景和文字，並且在實際應用中具有高精度和高效率。</p>
+                        <p>通過使用最新的卷積神經網絡（CNN）模型和資料增強技術，我們成功地訓練了一個強大的模型，在各種測試數據集上表現優異，識別準確率達到95%以上。</p>
+
+                        <h2>研究目標</h2>
+                        <ul>
+                            <li>開發一個精確度高的圖像識別系統</li>
+                            <li>探索不同機器學習模型的優缺點及適用場景</li>
+                            <li>實現資料預處理和增強技術，提高模型泛化能力</li>
+                            <li>設計友好的使用者介面，方便操作和結果展示</li>
+                            <li>評估系統在實際應用中的表現和可擴展性</li>
+                        </ul>
+
+                        <h2>技術實現</h2>
+                        <p>本專案使用Python作為主要開發語言，結合了多種資料科學和機器學習庫：</p>
+                        <ul>
+                            <li>TensorFlow和Keras用於建構和訓練神經網絡模型</li>
+                            <li>OpenCV用於圖像預處理和增強</li>
+                            <li>Pandas和NumPy用於資料處理和分析</li>
+                            <li>Matplotlib和Seaborn用於結果視覺化</li>
+                            <li>Flask用於建立簡單的網頁介面進行操作</li>
+                        </ul>
+
+                        <h2>系統架構</h2>
+                        <p>整個系統由以下幾個主要模組組成：</p>
+                        <ol>
+                            <li><strong>資料收集與預處理模組：</strong>負責匯入、清洗資料集，進行標準化和資料增強操作</li>
+                            <li><strong>模型訓練模組：</strong>實現不同的機器學習演算法，對模型進行訓練和調參</li>
+                            <li><strong>圖像識別引擎：</strong>核心演算法，處理輸入圖像並進行識別分類</li>
+                            <li><strong>結果評估模組：</strong>計算各種效能指標，評估模型表現</li>
+                            <li><strong>使用者介面：</strong>提供簡潔的操作界面，顯示識別結果</li>
+                        </ol>
+
+                        <h2>研究成果</h2>
+                        <p>經過數個月的開發和測試，我們的系統在各項指標上取得了良好的成績：</p>
+                        <ul>
+                            <li>在標準測試集上達到95.8%的識別準確率</li>
+                            <li>平均識別速度小於0.3秒/圖</li>
+                            <li>支援20個不同類別的物體識別</li>
+                            <li>系統穩定性良好，連續使用8小時不出現性能下降</li>
+                        </ul>
+
+                        <h2>未來展望</h2>
+                        <p>雖然本研究已經取得了一定的成果，但仍有多個方向可以繼續深入：</p>
+                        <ul>
+                            <li>擴展模型至更多類別的識別能力</li>
+                            <li>優化模型結構，提高效能和準確率</li>
+                            <li>開發移動端應用，實現隨時隨地的圖像識別</li>
+                            <li>結合雲端技術，提供更強大的處理能力</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-sidebar">
+                        <div class="project-info-item">
+                            <h3>專案資訊</h3>
+                            <p><strong>完成時間：</strong> 2024年3月</p>
+                            <p><strong>開發人員：</strong> 陳雪葶</p>
+                            <p><strong>指導教授：</strong> 張教授</p>
+                            <p><strong>使用技術：</strong> Python, TensorFlow, OpenCV</p>
+                        </div>
+                        
+                        <div class="project-info-item">
+                            <h3>相關連結</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link">GitHub 程式碼</a>
+                                <a href="#" class="project-link">專案報告</a>
+                                <a href="#" class="project-link">線上演示</a>
+                                <a href="#" class="project-link">相關論文</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-gallery">
+                    <h2 class="gallery-title">專案圖片集</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                        <div class="gallery-item" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                        <div class="gallery-item" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                        <div class="gallery-item" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    </div>
+                </div>
+
+                <div class="project-navigation">
+                    <div class="nav-previous">
+                        <span class="nav-label">上一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title">智慧健康監測系統</div>
+                        </a>
+                    </div>
+                    <div class="nav-next">
+                        <span class="nav-label">下一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title">互動式教學平台設計</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

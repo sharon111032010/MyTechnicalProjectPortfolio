@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人部落格</title>
+    <link rel="stylesheet" href="./css/blog-section@.css">
+</head>
+
+<body>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">部落格</h2>
+
+            <div class="blog-categories">
+                <ul class="category-tabs">
+                    <li class="active"><a href="#all">全部</a></li>
+                    <li><a href="#academic">學術與研究</a></li>
+                    <li><a href="#experience">經驗與專案</a></li>
+                    <li><a href="#learning">技能提升</a></li>
+                    <li><a href="#career">職業發展</a></li>
+                </ul>
+            </div>
+
+            <div class="blog-grid">
+                <!-- 你可以在這裡加入任意數量的 .blog-card -->
+                <div class="blog-card" data-category="academic">
+                    <div class="blog-image" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="blog-content">
+                        <div class="blog-category">學術與研究</div>
+                        <h3>機器學習在圖像辨識中的應用</h3>
+                        <p class="blog-date">2024年3月15日</p>
+                        <p class="blog-excerpt">本文探討了現代機器學習技術如何在圖像辨識領域中取得突破性進展，並分享了我在課題研究中的心得...</p>
+                        <a href="#" class="blog-read-more">閱讀更多</a>
+                    </div>
+                </div>
+                <!-- 更多卡片... -->
+            </div>
+
+            <p id="no-results">目前沒有相關文章。</p>
+
+            <div class="blog-pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="next">下一頁 &raquo;</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const categoryLinks = document.querySelectorAll('.category-tabs a');
+            const blogCards = document.querySelectorAll('.blog-card');
+            const noResults = document.getElementById('no-results');
+
+            categoryLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Active 樣式切換
+                    categoryLinks.forEach(item => item.parentElement.classList.remove('active'));
+                    this.parentElement.classList.add('active');
+
+                    const category = this.getAttribute('href').replace('#', '');
+                    let hasVisible = false;
+
+                    // 篩選卡片
+                    blogCards.forEach(card => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = 'block';
+                            hasVisible = true;
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    // 顯示無結果提示
+                    noResults.style.display = hasVisible ? 'none' : 'block';
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

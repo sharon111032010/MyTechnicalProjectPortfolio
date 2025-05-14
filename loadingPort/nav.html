@@ -1,0 +1,89 @@
+<header>
+<div class="container">
+    <nav>
+        <a href="../index.html" class="logo">陳雪葶 | 作品集</a>
+        <ul class="nav-links">
+            <li><a href="index.html#about-placeholder">關於我</a></li>
+            <li><a href="../portfolio_page.html">作品展示</a></li>
+            <li><a href="index.html#skills">專業技能</a></li>
+            <li><a href="index.html#journey">成長歷程</a></li>
+            <!-- <li><a href="#blog">部落格</a></li> -->
+            <li><a href="index.html#contact">聯絡我</a></li>
+        </ul>
+    </nav>
+</div>
+
+</header>
+<style>
+            :root {
+            --background-color: #F4F4F4;
+            --text-color: #333333;
+            --accent-color: #FF6B6B;
+            --link-color: #F6D6E1;
+            --highlight-color: #FF8FB1;
+            --border-color: #FFF0F0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            max-height: fit-content;
+        }
+        
+        header {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+</style>

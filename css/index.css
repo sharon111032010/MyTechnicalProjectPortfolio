@@ -1,0 +1,81 @@
+        /* 全局樣式 */
+        :root {
+            --background-color: #F4F4F4;
+            --text-color: #333333;
+            --accent-color: #FF6B6B;
+            --link-color: #F6D6E1;
+            --highlight-color: #FF8FB1;
+            --border-color: #FFF0F0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        
+        
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #e05c5c;
+        }
+        
+        
+        
+        
+        
+        /* 響應式設計 */
+        @media (max-width: 992px) {
+            .about-content {
+                flex-direction: column;
+            }
+            
+            .about-img, .about-text {
+                flex: 0 0 100%;
+            }
+            
+            .skill-category {
+                width: 100%;
+            }
+            
+            .contact-content {
+                flex-direction: column;
+            }
+            
+            .contact-form, .contact-info {
+                flex: 0 0 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .section-title {
+                font-size: 30px;
+            }
+        }
