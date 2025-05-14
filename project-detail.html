@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題研究 - 陳雪葶作品集</title>
+    <link rel="stylesheet" href="./css/project-detail-page.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <script>
+        // 用 JavaScript 載入 nav.html
+        fetch('./loadingPort/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="project-detail">
+            <div class="container">
+                <!-- 頁面主要內容 -->
+                <div class="project-header">
+                    <h1 class="project-title"></h1>
+                    <div class="project-meta">
+                        <div class="project-category"></div>
+                        <div class="project-date"></div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="project-tag"></span>
+                    </div>
+                </div>
+
+                <div class="project-image-main"></div>
+
+                <div class="project-content">
+                    <div class="project-description"></div>
+
+                    <div class="project-sidebar">
+                        <div class="project-info-item">
+                            <h3>專案資訊</h3>
+                            <p><strong>完成時間：</strong><span class="project-completion-date"></span></p>
+                            <p><strong>開發人員：</strong><span class="project-developer"></span></p>
+                            <p><strong>指導教授：</strong><span class="project-supervisor"></span></p>
+                        </div>
+
+                        <div class="project-info-item">
+                            <h3>相關連結</h3>
+                            <div class="project-links">
+                                <a href="#" class="project-link"></a>
+                                <a href="#" class="project-link"></a>
+                                <a href="#" class="project-link"></a>
+                                <a href="#" class="project-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-gallery">
+                    <h2 class="gallery-title"></h2>
+                    <div class="gallery-grid">
+                        <!-- 圖片將由 JS 動態填充 -->
+                    </div>
+                </div>
+
+                <div class="project-navigation">
+                    <div class="nav-previous">
+                        <span class="nav-label">上一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title"></div>
+                        </a>
+                    </div>
+                    <div class="nav-next">
+                        <span class="nav-label">下一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/project-detail.js"></script>
+</body>
+</html>
