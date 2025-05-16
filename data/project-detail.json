@@ -152,5 +152,57 @@
             },
             "nextProject": null
         }
+    },
+
+    {
+        "project": {
+            "id": 20,
+            "title": "sql server 資料庫語法",
+            "category": "資料庫",
+            "date": "完成日期: 2025年5月",
+            "tags": [
+                "Python",
+                "模型優化",
+                "交叉驗證",
+                "梯度下降"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=Project+2",
+            "description": "探討各種模型優化技術，針對不同資料集進行準確率與效率比較。",
+            "researchGoals": [
+                "比較不同優化器（Optimizer）效果",
+                "分析模型訓練速度與準確率的關係",
+                "建立自動化的模型驗證流程"
+            ],
+            "technicalImplementation": [
+                "alter table users \\n alter column phone varchar(20) null ;\\n  alter table users \\n alter column department int null;"
+
+            ],
+            "galleryImages": [
+                "https://via.placeholder.com/600x400?text=Project2-1",
+                "https://via.placeholder.com/600x400?text=Project2-2"
+            ],
+            "completionDate": "2024年4月",
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [
+                {
+                    "text": "GitHub 程式碼",
+                    "url": "https://github.com/example2"
+                },
+                {
+                    "text": "專案報告",
+                    "url": "https://example.com/report2"
+                }
+            ],
+            "previousProject": {
+                "title": "資料分析與機器學習結合的圖像識別系統",
+                "id":19 
+            },
+            "nextProject": {
+                "title": "深度學習在語音識別中的應用",
+                "id":21 
+            }
+        }
     }
+
 ]

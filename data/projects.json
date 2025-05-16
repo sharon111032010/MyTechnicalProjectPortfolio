@@ -7,6 +7,7 @@
     "type": ["專題"],
     "link": "./project-detail-page.html"
   },
+
   {
     "img": "作品集.png",
     "title": "響應式個人網站",
@@ -16,6 +17,7 @@
     "type": ["Web開發"],
     "link": "project-detail.html?id=2"
   },
+
   {
     "img": "github.png",
     "title": "開源協作專案",
@@ -33,6 +35,7 @@
     "type": ["IE作品"],
     "link": "#"
   },
+
   {
     "img": "智慧藥盒.png",
     "title": "智慧藥盒系統設計",
@@ -41,6 +44,7 @@
     "type": ["專題"],
     "link": "#"
   },
+
   {
     "img": "網頁展示奶酪.png",
     "title": "網頁設計品牌形象",
@@ -58,6 +62,7 @@
     "type": ["Figma設計"],
     "link": "#"
   },
+
   {
     "img": "javaApp.png",
     "title": "Java 應用程式練習",
@@ -66,6 +71,7 @@
     "type": ["Java專案"],
     "link": "#"
   },
+
   {
     "img": "商經比賽Ｅ起區投票.png",
     "title": "投票系統",
@@ -74,6 +80,7 @@
     "type": ["專題"],
     "link": "#"
   },
+
   {
     "img": "讓愛跨越流浪.png",
     "title": "讓愛跨越流浪",
@@ -82,6 +89,7 @@
     "type": ["Web開發"],
     "link": "#"
   },
+
   {
     "img": "烏弄.png",
     "title": "飲料品牌網頁設計",
@@ -90,6 +98,7 @@
     "type": ["Web開發"],
     "link": "#"
   },
+
   {
     "img": "netfix.png",
     "title": " Netflix 動畫剪輯",
@@ -98,6 +107,7 @@
     "type": ["Web開發"],
     "link": "#"
   },
+
   {
     "img": "個人網頁程式語言.png",
     "title": "個人技能展示頁面",
@@ -106,6 +116,7 @@
     "type": ["Web開發"],
     "link": "#"
   },
+
   {
     "img": "singUpPageOkImg純css.png",
     "title": "註冊頁面設計（純CSS）",
@@ -114,6 +125,7 @@
     "type": ["Web開發"],
     "link": "#"
   },
+
   {
     "img": "星際大戰爭.png",
     "title": "星際主題創意頁面",
@@ -122,6 +134,7 @@
     "type": ["Figma設計"],
     "link": "#"
   },
+
   {
     "img": "•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
     "title": "會員系統開發流程圖",
@@ -130,6 +143,7 @@
     "type": ["專題"],
     "link": "#"
   },
+
   {
     "img": "python69.png",
     "title": "Python 資料視覺化練習",
@@ -138,6 +152,7 @@
     "type": ["Python專案"],
     "link": "#"
   },
+
   {
     "img": "計算機.png",
     "title": "Java桌面應用程序",
@@ -146,6 +161,15 @@
     "type": ["Java專案"],
     "link": "#"
   },
+    {
+    "img": "#",
+    "title": "sql 資料庫語法",
+    "desc": "使用 SQL 語法進行資料庫操作，熟悉資料庫設計與查詢語言。",
+    "category": "sql server",
+    "type": ["sql server"],
+    "link": "#"
+  },
+
   {
     "img": "spythonC248.png",
     "title": "網頁數據爬蟲系統",
