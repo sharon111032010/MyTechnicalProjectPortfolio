@@ -14,7 +14,6 @@
     "img": "作品集.png",
     "title": "響應式個人網站",
     "desc": "使用HTML5, CSS3和JavaScript開發的響應式個人網站，展示了前端開發技能。",
-    "desc": "以 HTML/CSS/JS 打造個人網站，支援行動裝置與桌面雙模式。",
     "category": "Web",
     "type": [
       "Web開發"
@@ -105,17 +104,17 @@
   {
     "img": "netfix.png",
     "title": " Netflix 動畫剪輯",
-    "desc": "使用 HTML 和 CSS 製作 Netflix 風格影片排版展示。",
-    "category": "切版練習",
+    "desc": "使用Premiere Pro 剪輯 Netflix 片段，展示影片剪輯技巧。",
+    "category": "影片剪輯",
     "type": [
-      "Web開發"
+      "影片剪輯"
     ],
     "link": "project-detail.html?id=11"
   },
   {
     "img": "個人網頁程式語言.png",
     "title": "個人技能展示頁面",
-    "desc": "設計一頁式介紹頁，展示使用者熟悉的前端開發語言與技能。",
+    "desc": "設計網頁，展示使用者熟悉的前端開發語言與技能。",
     "category": "Web開發",
     "type": [
       "Web開發"
@@ -124,8 +123,8 @@
   },
   {
     "img": "singUpPageOkImg純css.png",
-    "title": "註冊頁面設計（純CSS）",
-    "desc": "不使用JavaScript，僅以HTML和CSS打造互動式註冊介面。",
+    "title": "頁面設計",
+    "desc": "不使用JavaScript，僅以HTML和CSS打造互動式介面。",
     "category": "CSS練習",
     "type": [
       "Web開發"
@@ -134,11 +133,11 @@
   },
   {
     "img": "星際大戰爭.png",
-    "title": "星際主題創意頁面",
-    "desc": "以星際大戰為靈感製作視覺頁面，呈現動態特效與風格化字體。",
-    "category": "創意作品",
+    "title": "星際遊戲設計",
+    "desc": "以星際大戰為靈感製作傳統遊戲，呈現動態特的飛行射擊遊戲。",
+    "category": "期末報告",
     "type": [
-      "Figma設計"
+      "C++專案"
     ],
     "link": "project-detail.html?id=14"
   },
@@ -155,7 +154,7 @@
   {
     "img": "計算機.png",
     "title": "Java桌面應用程序",
-    "desc": "使用Java開發的桌面應用程序，結合AWT/Swing技術實現友好的用戶界面。",
+    "desc": "使用Java開發的桌面應用程序，結合AWT技術實現友好的用戶界面。",
     "category": "Java專案",
     "type": [
       "Java專案"
@@ -165,7 +164,7 @@
   {
     "img": "spythonC248.png",
     "title": "網頁數據爬蟲系統",
-    "desc": "使用Python開發的高效網頁爬蟲系統，能夠收集和網絡數據，強化程式邏輯與錯誤處理經驗。",
+    "desc": "使用Python開發的高效網頁爬蟲系統，能夠收集和網絡數據，並強化程式邏輯與錯誤處理經驗。",
     "category": "爬蟲專案",
     "type": [
       "爬蟲專案"
@@ -175,10 +174,10 @@
   {
     "img": "#",
     "title": "Angular 使用者系統",
-    "desc": " 使用 Angular 框架開發的使用者系統，實現與使用者的互動。",
-    "category": "sql server",
+    "desc": " 使用 Angular 框架設計，建立模組化設計與狀態管理。",
+    "category": "Angular專案",
     "type": [
-      "sql server"
+      "Angular專案"
     ],
     "link": "project-detail.html?id=18"
   },
@@ -194,8 +193,8 @@
   },
   {
     "img": "python69.png",
-    "title": "Python 資料視覺化練習",
-    "desc": "使用 Matplotlib 等工具繪製統計圖表，強化資料解讀能力。",
+    "title": "Python 爬蟲",
+    "desc": "使用 pyhton套件 等工具 ，自動化擷取網頁內容進行分析。",
     "category": "Python專案",
     "type": [
       "Python專案"
