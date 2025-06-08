@@ -237,7 +237,15 @@
             "completionDate": "2024年2月",
             "developer": "陳雪葶",
             "supervisor": null,
-            "links": [],
+            "links": [
+                {
+                    "text": "GitHub專案頁面",
+                    "url": "https://github.com/NUTCGroup/NUTCGroup.github.io"
+                },{
+                    "text": "網站連結",
+                    "url": "https://nutcgroup.github.io"
+                }
+            ],
             "previousProject": {
                 "title": "智慧藥盒系統設計",
                 "id": 4
@@ -399,7 +407,15 @@
             "completionDate": "2024年7月",
             "developer": "陳雪葶",
             "supervisor": null,
-            "links": [],
+            "links": [
+                {
+                    "text": "GitHub專案頁面",
+                    "url": "https://github.com/sharon111032010/WebDesignFinalProject113"
+                },{
+                    "text": "網站連結",
+                    "url": "https://sharon111032010.github.io/WebDesignFinalProject113/"
+                }
+            ],
             "previousProject": {
                 "title": "投票系統",
                 "id": 8
@@ -519,7 +535,15 @@
             "completionDate": "2024年10月",
             "developer": "陳雪葶",
             "supervisor": null,
-            "links": [],
+            "links": [
+                {
+                    "text": "GitHub專案頁面",
+                    "url": "https://github.com/101152sharon/mainHome"
+                },{
+                    "text": "網站連結",
+                    "url": "https://101152sharon.github.io/mainHome/"
+                }
+            ],
             "previousProject": {
                 "title": "Netflix 動畫剪輯",
                 "id": 12
