@@ -78,7 +78,7 @@ function fetchAndRenderProject() {
     }
 
     // fetch("./data/project-detail.json")
-    fetch("./data/test2.json")
+    fetch("./data/project-detail.json")
         .then(res => res.json())
         .then(data => {
             const projectObj = data.find(item => item.project.id === projectId);
