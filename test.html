@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題研究 - 陳雪葶作品集</title>
+    <link rel="stylesheet" href="./css/project-detail-page.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    
+    <main>
+        <section class="project-detail">
+            <div class="container">
+                <div class="project-header">
+                    <h1 class="project-title"></h1>
+                    <div class="project-meta">
+                        <div class="project-category"></div>
+                        <div class="project-date"></div>
+                    </div>
+                    <div class="project-tags"></div>
+                </div>
+                <div class="project-image-main"></div>
+                <div class="project-content">
+                    <div class="project-description"></div>
+                    <div class="project-sidebar">
+                        <div class="project-info-item">
+                            <h3>專案資訊</h3>
+                            <p><strong>完成時間：</strong> <span class="project-completion-date"></span></p>
+                            <p><strong>開發人員：</strong> <span class="project-developer"></span></p>
+                            <p><strong>指導教授：</strong> <span class="project-supervisor"></span></p>
+                        </div>
+                        
+                        <div class="project-info-item">
+                            <h3>相關連結</h3>
+                            <div class="project-links"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <h2 class="gallery-title">專案圖片集</h2>
+                    <div class="gallery-grid"></div>
+                </div>
+                <div class="project-navigation">
+                    <div class="nav-previous">
+                        <span class="nav-label">上一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title"></div>
+                        </a>
+                    </div>
+                    <div class="nav-next">
+                        <span class="nav-label">下一個專案</span>
+                        <a href="#" class="nav-link">
+                            <div class="nav-project-title"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // 簡化的 JSON 數據
+        const projectsData = [
+            {
+                project: {
+                    id: 1,
+                    title: "資料分析與機器學習結合的圖像識別系統",
+                    category: "專題研究",
+                    date: "完成日期: 2024年3月",
+                    tags: ["Python", "機器學習", "神經網絡", "圖像識別", "資料分析"],
+                    mainImage: "https://via.placeholder.com/1200x600",
+                    description: "本專案透過資料分析與機器學習技術，打造一套高準確率的圖像識別系統，用於分類與判斷不同物件影像。",
+                    researchGoals: [
+                        "開發一個精確度高的圖像識別系統",
+                        "探索不同機器學習模型的優缺點",
+                        "實現資料預處理和增強技術"
+                    ],
+                    technicalImplementation: [
+                        "TensorFlow 與 Keras 建構神經網絡",
+                        "OpenCV 處理與增強圖像資料",
+                        "Pandas 處理數據與分析資料"
+                    ],
+                    galleryImages: [
+                        "https://via.placeholder.com/600x400?text=Image+1",
+                        "https://via.placeholder.com/600x400?text=Image+2",
+                        "https://via.placeholder.com/600x400?text=Image+3"
+                    ],
+                    completionDate: "2024年3月",
+                    developer: "陳雪葶",
+                    supervisor: "李教授",
+                    links: [
+                        { text: "GitHub 程式碼", url: "https://github.com/example1" },
+                        { text: "專案報告", url: "https://example.com/report1" },
+                        { text: "線上演示", url: "https://example.com/demo1" }
+                    ],
+                    previousProject: null,
+                    nextProject: { title: "機器學習模型的優化研究", id: 2 }
+                }
+            },
+            {
+                project: {
+                    id: 2,
+                    title: "機器學習模型的優化研究",
+                    category: "研究論文",
+                    date: "完成日期: 2024年4月",
+                    tags: ["Python", "模型優化", "交叉驗證", "梯度下降"],
+                    mainImage: "https://via.placeholder.com/1200x600?text=Project+2",
+                    description: "探討各種模型優化技術，針對不同資料集進行準確率與效率比較。",
+                    researchGoals: [],
+                    technicalImplementation: [],
+                    galleryImages: [],
+                    completionDate: "",
+                    developer: "",
+                    supervisor: "",
+                    links: [],
+                    previousProject: { title: "資料分析與機器學習結合的圖像識別系統", id: 1 },
+                    nextProject: null
+                }
+            }
+        ];
+
+        function getProjectIdFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return parseInt(urlParams.get("id"), 10) || 1; // 預設顯示第一個專案
+        }
+
+        function renderProject(project) {
+            // 標題、分類、日期
+            document.querySelector(".project-title").textContent = project.title;
+            document.querySelector(".project-category").textContent = project.category;
+            document.querySelector(".project-date").textContent = project.date;
+
+            // 標籤
+            const tagsContainer = document.querySelector(".project-tags");
+            tagsContainer.innerHTML = "";
+            project.tags.forEach(tag => {
+                const span = document.createElement("span");
+                span.className = "project-tag";
+                span.textContent = tag;
+                tagsContainer.appendChild(span);
+            });
+
+            // 主圖
+            const imageMain = document.querySelector(".project-image-main");
+            imageMain.innerHTML = `<img src="${project.mainImage}" alt="${project.title}" style="width: 100%; height: auto;" />`;
+
+            // 描述
+            const descriptionContainer = document.querySelector(".project-description");
+            descriptionContainer.innerHTML = "";
+
+            // 加入專案概述
+            const overviewTitle = document.createElement("h2");
+            overviewTitle.textContent = "專案概述";
+            descriptionContainer.appendChild(overviewTitle);
+
+            const descPara = document.createElement("p");
+            descPara.textContent = project.description;
+            descriptionContainer.appendChild(descPara);
+
+            // 加入研究目標
+            if (project.researchGoals && project.researchGoals.length > 0) {
+                const goalsTitle = document.createElement("h2");
+                goalsTitle.textContent = "研究目標";
+                descriptionContainer.appendChild(goalsTitle);
+
+                const goalsList = document.createElement("ul");
+                project.researchGoals.forEach(goal => {
+                    const li = document.createElement("li");
+                    li.textContent = goal;
+                    goalsList.appendChild(li);
+                });
+                descriptionContainer.appendChild(goalsList);
+            }
+
+            // 加入技術實作
+            if (project.technicalImplementation && project.technicalImplementation.length > 0) {
+                const techTitle = document.createElement("h2");
+                techTitle.textContent = "技術實現";
+                descriptionContainer.appendChild(techTitle);
+
+                const techList = document.createElement("ul");
+                project.technicalImplementation.forEach(item => {
+                    const li = document.createElement("li");
+                    li.textContent = item;
+                    techList.appendChild(li);
+                });
+                descriptionContainer.appendChild(techList);
+            }
+
+            // 資訊欄位
+            document.querySelector(".project-completion-date").textContent = project.completionDate;
+            document.querySelector(".project-developer").textContent = project.developer;
+            document.querySelector(".project-supervisor").textContent = project.supervisor;
+
+            // 連結
+            const linksContainer = document.querySelector(".project-links");
+            linksContainer.innerHTML = "";
+            project.links.forEach(link => {
+                const a = document.createElement("a");
+                a.className = "project-link";
+                a.href = link.url;
+                a.target = "_blank";
+                a.textContent = link.text;
+                a.style.display = "block";
+                a.style.marginBottom = "10px";
+                linksContainer.appendChild(a);
+            });
+
+            // 圖片畫廊
+            const gallery = document.querySelector(".gallery-grid");
+            gallery.innerHTML = "";
+            project.galleryImages.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = "Gallery Image";
+                img.style.width = "100%";
+                img.style.height = "200px";
+                img.style.objectFit = "cover";
+                img.style.margin = "5px";
+                gallery.appendChild(img);
+            });
+
+            // 上一個專案
+            const prevLink = document.querySelector(".nav-previous .nav-link");
+            const prevTitle = document.querySelector(".nav-previous .nav-project-title");
+            if (project.previousProject && project.previousProject.title) {
+                prevLink.href = `?id=${project.previousProject.id}`;
+                prevTitle.textContent = project.previousProject.title;
+                prevLink.style.display = "block";
+            } else {
+                prevLink.style.display = "none";
+            }
+
+            // 下一個專案
+            const nextLink = document.querySelector(".nav-next .nav-link");
+            const nextTitle = document.querySelector(".nav-next .nav-project-title");
+            if (project.nextProject && project.nextProject.title) {
+                nextLink.href = `?id=${project.nextProject.id}`;
+                nextTitle.textContent = project.nextProject.title;
+                nextLink.style.display = "block";
+            } else {
+                nextLink.style.display = "none";
+            }
+        }
+
+        function fetchAndRenderProject() {
+            const projectId = getProjectIdFromURL();
+            const projectObj = projectsData.find(item => item.project.id === projectId);
+            
+            if (!projectObj) {
+                document.querySelector(".project-title").textContent = "找不到專案資料";
+                return;
+            }
+            
+            renderProject(projectObj.project);
+        }
+
+        // 載入 nav.html (如果存在)
+        fetch('./loadingPort/nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            })
+            .catch(error => {
+                console.log('Nav file not found, continuing without nav');
+            });
+
+        // 頁面載入完成後執行
+        document.addEventListener("DOMContentLoaded", fetchAndRenderProject);
+    </script>
+</body>
+</html>

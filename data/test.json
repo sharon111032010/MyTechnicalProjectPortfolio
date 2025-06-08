@@ -1,0 +1,374 @@
+[
+    {
+        "project": {
+            "id": 1,
+            "title": "個人作品集網站",
+            "category": "前端設計",
+            "completionDate": "2025年4月",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "RWD",
+                "Figma"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=Portfolio",
+            "description": "設計並實作個人作品集網站，展示自我技能與專案成果，並導入響應式網頁技術。",
+            "researchGoals": [
+                "建立個人品牌形象",
+                "應用 RWD 響應式設計",
+                "整合多個專案作品展示"
+            ],
+            "technicalImplementation": [
+                "使用 HTML5/CSS3 架構網站頁面",
+                "JavaScript 實作互動效果與表單功能",
+                "Figma 設計 wireframe 與 UI layout"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [
+                {
+                    "text": "網站連結",
+                    "url": "https://example.com/portfolio"
+                }
+            ],
+            "previousProject": null,
+            "nextProject": {
+                "title": "校園新生 AI 小幫手",
+                "id": 2
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 2,
+            "title": "校園新生 AI 小幫手",
+            "category": "專題製作",
+            "completionDate": "2025年6月",
+            "tags": [
+                "Angular",
+                "ASP.NET Core",
+                "SQL Server",
+                "AI API"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=CampusAI",
+            "description": "設計一套 AI 對話系統，協助校園新生解決選課、系統使用與學校資訊等常見問題。",
+            "researchGoals": [
+                "簡化新生適應流程",
+                "建構聊天介面與 API 串接",
+                "提供使用者資訊與紀錄查詢"
+            ],
+            "technicalImplementation": [
+                "使用 Angular 製作前端頁面",
+                "透過 ASP.NET Core 提供後端 API",
+                "導入 GPT API 提供問答內容",
+                "資料庫使用 SQL Server 儲存使用紀錄與帳號"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [],
+            "previousProject": {
+                "title": "個人作品集網站",
+                "id": 1
+            },
+            "nextProject": {
+                "title": "學生成績管理系統",
+                "id": 3
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 3,
+            "title": "學生成績管理系統",
+            "category": "Web應用",
+            "completionDate": "2024年12月",
+            "tags": [
+                "ASP.NET",
+                "SQL Server",
+                "CRUD",
+                "登入系統"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=GradeSystem",
+            "description": "開發一套 Web 學生成績管理平台，支援新增、修改、查詢與刪除資料功能。",
+            "researchGoals": [
+                "練習後端資料庫設計與串接",
+                "設計完整使用者操作流程",
+                "具備使用者登入驗證功能"
+            ],
+            "technicalImplementation": [
+                "ASP.NET MVC 建構前後端",
+                "Entity Framework 操作資料庫",
+                "登入驗證機制使用身份驗證 Cookies"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [],
+            "previousProject": {
+                "title": "校園新生 AI 小幫手",
+                "id": 2
+            },
+            "nextProject": {
+                "title": "期末網頁設計作業",
+                "id": 4
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 4,
+            "title": "期末網頁設計作業",
+            "category": "課程作業",
+            "completionDate": "2023年6月",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "表單驗證"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=WebDesignFinal",
+            "description": "完成一份期末網頁作業，具備使用者註冊、表單驗證與頁面跳轉功能。",
+            "researchGoals": [
+                "熟悉網頁設計流程",
+                "練習使用 Bootstrap 排版",
+                "實作基本 JavaScript 功能"
+            ],
+            "technicalImplementation": [
+                "HTML 建構表單",
+                "CSS 美化畫面",
+                "JavaScript 驗證欄位輸入"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "課程老師",
+            "links": [],
+            "previousProject": {
+                "title": "學生成績管理系統",
+                "id": 3
+            },
+            "nextProject": {
+                "title": "Java GUI 資料查詢系統",
+                "id": 5
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 5,
+            "title": "Java GUI 資料查詢系統",
+            "category": "Java 專案",
+            "completionDate": "2023年12月",
+            "tags": [
+                "Java",
+                "Swing",
+                "資料查詢",
+                "介面設計"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=JavaGUI",
+            "description": "使用 Java Swing 開發圖形化介面應用程式，支援資料查詢與輸入功能。",
+            "researchGoals": [
+                "學習 GUI 元件操作",
+                "實作表格查詢與更新功能"
+            ],
+            "technicalImplementation": [
+                "Java Swing 設計表單介面",
+                "JTable 顯示資料",
+                "資料儲存在本地檔案或記憶體結構"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "課程老師",
+            "links": [],
+            "previousProject": {
+                "title": "期末網頁設計作業",
+                "id": 4
+            },
+            "nextProject": {
+                "title": "Arduino 智慧藥盒",
+                "id": 6
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 6,
+            "title": "Arduino 智慧藥盒",
+            "category": "專題競賽",
+            "completionDate": "2023年11月",
+            "tags": [
+                "Arduino",
+                "感測器",
+                "提醒系統"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=SmartPillBox",
+            "description": "設計一款智慧藥盒，具備時間提醒與藥物存取感測功能，協助長者準時服藥。",
+            "researchGoals": [
+                "整合時間模組與感測器",
+                "建立視覺與聲音提醒功能"
+            ],
+            "technicalImplementation": [
+                "使用 Arduino 控制蜂鳴器與 LED",
+                "結合 RTC 時鐘模組",
+                "紅外線感測偵測藥物拿取狀態"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [],
+            "previousProject": {
+                "title": "Java GUI 資料查詢系統",
+                "id": 5
+            },
+            "nextProject": {
+                "title": "使用 Python 進行課程爬蟲",
+                "id": 7
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 7,
+            "title": "使用 Python 進行課程爬蟲",
+            "category": "Python 應用",
+            "completionDate": "2024年5月",
+            "tags": [
+                "Python",
+                "爬蟲",
+                "requests",
+                "BeautifulSoup"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=PythonCrawler",
+            "description": "利用 Python 撰寫爬蟲程式，自動擷取校內課程與教師資訊並存入資料庫。",
+            "researchGoals": [
+                "學習 requests 與 BeautifulSoup 的應用",
+                "將資料結構化後儲存"
+            ],
+            "technicalImplementation": [
+                "使用 requests 抓取 HTML 原始碼",
+                "用 BeautifulSoup 分析課程表結構",
+                "將資料轉為 JSON 或寫入資料庫"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "課程老師",
+            "links": [],
+            "previousProject": {
+                "title": "Arduino 智慧藥盒",
+                "id": 6
+            },
+            "nextProject": {
+                "title": "SQL Server 資料庫語法實作",
+                "id": 8
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 8,
+            "title": "SQL Server 資料庫語法實作",
+            "category": "資料庫實作",
+            "completionDate": "2024年6月",
+            "tags": [
+                "SQL Server",
+                "ALTER TABLE",
+                "資料欄位設計"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=SQLServer",
+            "description": "練習 SQL Server 資料庫基本語法，操作資料表欄位修改、建立與查詢。",
+            "researchGoals": [
+                "熟悉 ALTER TABLE 與資料類型修改",
+                "了解資料欄位 NULL 設定"
+            ],
+            "technicalImplementation": [
+                "alter table users \\n alter column phone varchar(20) null;",
+                "alter table users \\n alter column department int null;"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "課程老師",
+            "links": [],
+            "previousProject": {
+                "title": "使用 Python 進行課程爬蟲",
+                "id": 7
+            },
+            "nextProject": {
+                "title": "Angular 使用者系統 CRUD",
+                "id": 9
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 9,
+            "title": "Angular 使用者系統 CRUD",
+            "category": "前端框架",
+            "completionDate": "2025年2月",
+            "tags": [
+                "Angular",
+                "TypeScript",
+                "表單驗證",
+                "CRUD 操作"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=AngularCRUD",
+            "description": "使用 Angular 製作完整的使用者管理介面，支援新增、查詢、更新與刪除。",
+            "researchGoals": [
+                "練習 Angular 架構與元件設計",
+                "整合 API 串接與表單驗證"
+            ],
+            "technicalImplementation": [
+                "Reactive Forms 實作表單驗證",
+                "使用 service 呼叫 API",
+                "依功能分模組管理"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "王教授",
+            "links": [],
+            "previousProject": {
+                "title": "SQL Server 資料庫語法實作",
+                "id": 8
+            },
+            "nextProject": {
+                "title": "前端切版練習：登入與註冊頁",
+                "id": 10
+            }
+        }
+    },
+    {
+        "project": {
+            "id": 10,
+            "title": "前端切版練習：登入與註冊頁",
+            "category": "切版練習",
+            "completionDate": "2024年10月",
+            "tags": [
+                "HTML",
+                "CSS",
+                "切版",
+                "UI設計"
+            ],
+            "mainImage": "https://via.placeholder.com/1200x600?text=LoginRegister",
+            "description": "針對登入與註冊流程設計切版畫面，著重在版型一致性與排版整齊。",
+            "researchGoals": [
+                "提升畫面排版能力",
+                "整合視覺與互動設計"
+            ],
+            "technicalImplementation": [
+                "使用 Flexbox 與 Grid 打造頁面",
+                "設計 input 欄位與按鈕樣式",
+                "確保不同解析度下排版正常"
+            ],
+            "galleryImages": [],
+            "developer": "陳雪葶",
+            "supervisor": "課程老師",
+            "links": [],
+            "previousProject": {
+                "title": "Angular 使用者系統 CRUD",
+                "id": 9
+            },
+            "nextProject": null
+        }
+    }
+]

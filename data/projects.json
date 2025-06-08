@@ -1,30 +1,25 @@
 [
+
   {
     "img": "專題首頁.png",
     "title": "畢業專題 - 校園智慧系統",
     "desc": "運用人工智能和生成式ai技術的創新應用系統，解決現實校園中的問題。",
     "category": "專題",
-    "type": ["專題"],
-    "link": "./project-detail-page.html"
+    "type": [
+      "專題"
+    ],
+    "link": "project-detail.html?id=1"
   },
-
-  {
+    {
     "img": "作品集.png",
     "title": "響應式個人網站",
     "desc": "使用HTML5, CSS3和JavaScript開發的響應式個人網站，展示了前端開發技能。",
     "desc": "以 HTML/CSS/JS 打造個人網站，支援行動裝置與桌面雙模式。",
     "category": "Web",
-    "type": ["Web開發"],
+    "type": [
+      "Web開發"
+    ],
     "link": "project-detail.html?id=2"
-  },
-
-  {
-    "img": "github.png",
-    "title": "開源協作專案",
-    "desc": "在GitHub上參與開發的開源專案，展示了版本控制和團隊協作能力。",
-    "category": "GitHub專案",
-    "type": ["GitHub專案"],
-    "link": "#"
   },
 
   {
@@ -32,150 +27,189 @@
     "title": "浦燒镘魚版面設計",
     "desc": "使用IE工具設計浦燒镘魚版面設計，展示設計技能。",
     "category": "IE設計",
-    "type": ["IE作品"],
-    "link": "#"
+    "type": [
+      "IE作品"
+    ],
+    "link": "project-detail.html?id=3"
   },
-
   {
     "img": "智慧藥盒.png",
     "title": "智慧藥盒系統設計",
     "desc": "運用感測與提醒功能，協助使用者準時服藥，提升健康管理效率。",
     "category": "專題比賽",
-    "type": ["專題"],
-    "link": "#"
+    "type": [
+      "專題"
+    ],
+    "link": "project-detail.html?id=4"
   },
-
   {
     "img": "網頁展示奶酪.png",
     "title": "網頁設計品牌形象",
     "desc": "設計一頁式視覺網站，展現品牌特色與甜品視覺風格。",
     "category": "網頁設計",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=5"
   },
-
   {
     "img": "appFigma.png",
     "title": "Apple 官方頁面再設計",
     "desc": "以 Figma 重構 Apple 首頁排版，練習 UI/UX 設計流程。",
     "category": "UI/UX設計",
-    "type": ["Figma設計"],
-    "link": "#"
+    "type": [
+      "Figma設計"
+    ],
+    "link": "project-detail.html?id=6"
   },
-
   {
     "img": "javaApp.png",
     "title": "Java 應用程式練習",
     "desc": "這是一個使用 Java 開發的 Android 應用程式，練習基本的介面設計、資料傳遞與功能實作，提升行動應用開發方面的實作能力。",
     "category": "Java專案",
-    "type": ["Java專案"],
-    "link": "#"
+    "type": [
+      "Java專案"
+    ],
+    "link": "project-detail.html?id=7"
   },
-
   {
     "img": "商經比賽Ｅ起區投票.png",
     "title": "投票系統",
     "desc": "這是我參加的一場比賽，作品是設計一個投票系統，用來讓使用者能夠方便地進行投票。",
     "category": "合作比賽",
-    "type": ["專題"],
-    "link": "#"
+    "type": [
+      "專題"
+    ],
+    "link": "project-detail.html?id=8"
   },
-
   {
     "img": "讓愛跨越流浪.png",
     "title": "讓愛跨越流浪",
     "desc": "以溫馨風格設計主視覺，傳達流浪動物關懷理念。",
     "category": "網頁合作設計",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=9"
   },
-
   {
     "img": "烏弄.png",
     "title": "飲料品牌網頁設計",
     "desc": "模擬烏弄品牌風格進行網頁設計，展現商業風格切版能力。",
     "category": "網頁設計",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=10"
   },
-
   {
     "img": "netfix.png",
     "title": " Netflix 動畫剪輯",
     "desc": "使用 HTML 和 CSS 製作 Netflix 風格影片排版展示。",
     "category": "切版練習",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=11"
   },
-
   {
     "img": "個人網頁程式語言.png",
     "title": "個人技能展示頁面",
     "desc": "設計一頁式介紹頁，展示使用者熟悉的前端開發語言與技能。",
     "category": "Web開發",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=12"
   },
-
   {
     "img": "singUpPageOkImg純css.png",
     "title": "註冊頁面設計（純CSS）",
     "desc": "不使用JavaScript，僅以HTML和CSS打造互動式註冊介面。",
     "category": "CSS練習",
-    "type": ["Web開發"],
-    "link": "#"
+    "type": [
+      "Web開發"
+    ],
+    "link": "project-detail.html?id=13"
   },
-
   {
     "img": "星際大戰爭.png",
     "title": "星際主題創意頁面",
     "desc": "以星際大戰為靈感製作視覺頁面，呈現動態特效與風格化字體。",
     "category": "創意作品",
-    "type": ["Figma設計"],
-    "link": "#"
+    "type": [
+      "Figma設計"
+    ],
+    "link": "project-detail.html?id=14"
   },
-
   {
     "img": "•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
     "title": "會員系統開發流程圖",
     "desc": "展示會員功能開發歷程，涵蓋資料映射與除錯過程。",
     "category": "系統設計",
-    "type": ["專題"],
-    "link": "#"
+    "type": [
+      "專題"
+    ],
+    "link": "project-detail.html?id=15"
   },
-
-  {
-    "img": "python69.png",
-    "title": "Python 資料視覺化練習",
-    "desc": "使用 Matplotlib 等工具繪製統計圖表，強化資料解讀能力。",
-    "category": "Python專案",
-    "type": ["Python專案"],
-    "link": "#"
-  },
-
   {
     "img": "計算機.png",
     "title": "Java桌面應用程序",
     "desc": "使用Java開發的桌面應用程序，結合AWT/Swing技術實現友好的用戶界面。",
     "category": "Java專案",
-    "type": ["Java專案"],
-    "link": "#"
+    "type": [
+      "Java專案"
+    ],
+    "link": "project-detail.html?id=16"
   },
-    {
-    "img": "#",
-    "title": "sql 資料庫語法",
-    "desc": "使用 SQL 語法進行資料庫操作，熟悉資料庫設計與查詢語言。",
-    "category": "sql server",
-    "type": ["sql server"],
-    "link": "#"
-  },
-
   {
     "img": "spythonC248.png",
     "title": "網頁數據爬蟲系統",
     "desc": "使用Python開發的高效網頁爬蟲系統，能夠收集和網絡數據，強化程式邏輯與錯誤處理經驗。",
     "category": "爬蟲專案",
-    "type": ["爬蟲專案"],
-    "link": "#"
+    "type": [
+      "爬蟲專案"
+    ],
+    "link": "project-detail.html?id=17"
+  },
+  {
+    "img": "#",
+    "title": "Angular 使用者系統",
+    "desc": " 使用 Angular 框架開發的使用者系統，實現與使用者的互動。",
+    "category": "sql server",
+    "type": [
+      "sql server"
+    ],
+    "link": "project-detail.html?id=18"
+  },
+    {
+    "img": "github.png",
+    "title": "開源協作專案",
+    "desc": "在GitHub上參與開發的開源專案，展示了版本控制和團隊協作能力。",
+    "category": "GitHub專案",
+    "type": [
+      "GitHub專案"
+    ],
+    "link": "project-detail.html?id=19"
+  },
+  {
+    "img": "python69.png",
+    "title": "Python 資料視覺化練習",
+    "desc": "使用 Matplotlib 等工具繪製統計圖表，強化資料解讀能力。",
+    "category": "Python專案",
+    "type": [
+      "Python專案"
+    ],
+    "link": "project-detail.html?id=7"
+  },
+  {
+    "img": "#",
+    "title": "sql 資料庫語法",
+    "desc": "使用 SQL 語法進行資料庫操作，熟悉資料庫設計與查詢語言。",
+    "category": "sql server",
+    "type": [
+      "sql server"
+    ],
+    "link": "project-detail.html?id=8"
   }
 ]
