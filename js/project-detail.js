@@ -77,7 +77,6 @@ function fetchAndRenderProject() {
         return;
     }
 
-    // fetch("./data/project-detail.json")
     fetch("./data/project-detail.json")
         .then(res => res.json())
         .then(data => {
@@ -189,6 +188,7 @@ function renderProject(project) {
     // 畫廊標題（有圖才顯示）
     document.querySelector(".gallery-title").textContent = "圖片畫廊";
 
+
     // 上一個專案
     const prevLink = document.querySelector(".nav-previous .nav-link");
     const prevTitle = document.querySelector(".nav-previous .nav-project-title");
@@ -208,6 +208,7 @@ function renderProject(project) {
     } else {
         nextLink.style.display = "none";
     }
+
 }
 
 document.addEventListener("DOMContentLoaded", fetchAndRenderProject);

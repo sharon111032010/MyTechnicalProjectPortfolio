@@ -57,6 +57,28 @@ fetch('./loadingPort/nav.html')
     .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;
 
+        function smoothScrollTo(targetY, duration = 1500) {
+            const startY = window.pageYOffset;
+            const distanceY = targetY - startY;
+            const startTime = performance.now();
+
+            function scroll(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const easing = progress < 0.5
+                    ? 4 * progress * progress * progress
+                    : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+                window.scrollTo(0, startY + distanceY * easing);
+
+                if (progress < 1) {
+                    requestAnimationFrame(scroll);
+                }
+            }
+
+            requestAnimationFrame(scroll);
+        }
+
         // navbar 載入後再滾動定位
         if (window.location.hash) {
             const target = document.querySelector(window.location.hash);
@@ -69,6 +91,8 @@ fetch('./loadingPort/nav.html')
                 });
             }
         }
+
+
     });
 
 
