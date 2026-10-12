@@ -1,214 +1,187 @@
 [
-
   {
-    "img": "專題首頁.png",
-    "title": "畢業專題 - 校園智慧系統",
-    "desc": "運用人工智能和生成式ai技術的創新應用系統，解決現實校園中的問題。",
-    "category": "專題",
-    "type": [
-      "專題"
-    ],
+    "id": 1,
+    "img": "smartCampus-login.png",
+    "icon": "🎓",
+    "title": "AI 校園智慧助手 SmartCampus",
+    "desc": "畢業專題，聊天式校園查詢系統，整合公告、規章與請假、選課等行政流程。負責前端開發，使用 Angular 串接 ASP.NET Core API，並整合 RAG 生成式模型。",
+    "category": "畢業專題",
+    "type": ["專題"],
+    "featured": true,
     "link": "project-detail.html?id=1"
   },
-    {
-    "img": "作品集.png",
-    "title": "響應式個人網站",
-    "desc": "使用HTML5, CSS3和JavaScript開發的響應式個人網站，展示了前端開發技能。",
-    "category": "Web",
-    "type": [
-      "Web開發"
-    ],
+  {
+    "id": 2,
+    "img": null,
+    "icon": "📡",
+    "title": "WiFi CSI 無攝影機感測系統",
+    "desc": "二技專題進行中，使用 ESP32-S3 蒐集 WiFi CSI 訊號偵測人體活動，不需架設攝影機。個人獨立專題，目前於前期研究與硬體建置階段。",
+    "category": "二技專題．進行中",
+    "type": ["專題"],
+    "featured": true,
     "link": "project-detail.html?id=2"
   },
-
   {
-    "img": "Ai_230427_浦燒镘魚版面設計.png",
-    "title": "浦燒镘魚版面設計",
-    "desc": "使用IE工具設計浦燒镘魚版面設計，展示設計技能。",
-    "category": "IE設計",
-    "type": [
-      "IE作品"
-    ],
+    "id": 3,
+    "img": "智慧藥盒.png",
+    "title": "智慧藥盒用藥系統",
+    "desc": "技職校院大手攜小手智慧創新應用競賽佳作，運用感測與提醒功能協助使用者準時服藥，提升健康管理效率。",
+    "category": "競賽作品",
+    "type": ["專題"],
     "link": "project-detail.html?id=3"
   },
   {
-    "img": "智慧藥盒.png",
-    "title": "智慧藥盒系統設計",
-    "desc": "運用感測與提醒功能，協助使用者準時服藥，提升健康管理效率。",
-    "category": "專題比賽",
-    "type": [
-      "專題"
-    ],
+    "id": 4,
+    "img": "•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
+    "title": "會員資訊系統",
+    "desc": "課堂團隊專題，設計會員資料的新增、查詢與資料映射流程，並實際參與除錯與功能測試。",
+    "category": "系統設計",
+    "type": ["專題", "Web開發"],
     "link": "project-detail.html?id=4"
   },
   {
-    "img": "網頁展示奶酪.png",
-    "title": "網頁設計品牌形象",
-    "desc": "設計一頁式視覺網站，展現品牌特色與甜品視覺風格。",
-    "category": "網頁設計",
-    "type": [
-      "Web開發"
-    ],
+    "id": 5,
+    "img": "作品集.png",
+    "title": "個人作品集網站",
+    "desc": "你現在瀏覽的這個網站本身，使用 HTML5、CSS3 與 JavaScript 開發，展示前端切版與互動功能實作能力。",
+    "category": "個人網站",
+    "type": ["Web開發"],
     "link": "project-detail.html?id=5"
   },
   {
-    "img": "appFigma.png",
-    "title": "Apple 官方頁面再設計",
-    "desc": "以 Figma 重構 Apple 首頁排版，練習 UI/UX 設計流程。",
-    "category": "UI/UX設計",
-    "type": [
-      "Figma設計"
-    ],
+    "id": 6,
+    "img": "spythonC248.png",
+    "title": "網頁數據爬蟲系統",
+    "desc": "使用 Python BeautifulSoup 解析網頁、Pandas 處理資料，練習自動化擷取網頁內容並進行資料分析。",
+    "category": "Python 開發",
+    "type": ["Python專案", "爬蟲專案"],
     "link": "project-detail.html?id=6"
   },
   {
-    "img": "javaApp.png",
-    "title": "Java 應用程式練習",
-    "desc": "這是一個使用 Java 開發的 Android 應用程式，練習基本的介面設計、資料傳遞與功能實作，提升行動應用開發方面的實作能力。",
-    "category": "Java專案",
-    "type": [
-      "Java專案"
-    ],
+    "id": 7,
+    "img": "計算機.png",
+    "title": "Java 計算機 GUI",
+    "desc": "使用 Java Swing 開發的桌面計算機應用程式，實作加減乘除運算與事件處理。",
+    "category": "Java 專案",
+    "type": ["Java專案"],
     "link": "project-detail.html?id=7"
   },
   {
-    "img": "商經比賽Ｅ起區投票.png",
-    "title": "投票系統",
-    "desc": "這是我參加的一場比賽，作品是設計一個投票系統，用來讓使用者能夠方便地進行投票。",
-    "category": "合作比賽",
-    "type": [
-      "專題"
-    ],
+    "id": 8,
+    "img": "javaApp.png",
+    "title": "Java Android 應用程式練習",
+    "desc": "使用 Java 開發的 Android 應用程式，練習介面設計、Intent 資料傳遞與多頁面功能實作。",
+    "category": "Java 專案",
+    "type": ["Java專案"],
     "link": "project-detail.html?id=8"
   },
   {
-    "img": "讓愛跨越流浪.png",
-    "title": "讓愛跨越流浪",
-    "desc": "以溫馨風格設計主視覺，傳達流浪動物關懷理念。",
-    "category": "網頁合作設計",
-    "type": [
-      "Web開發"
-    ],
+    "id": 9,
+    "img": "商經比賽Ｅ起區投票.png",
+    "title": "投票系統",
+    "desc": "商經比賽作品，設計方便使用者操作的投票系統，著重於安全性、匿名性與公平性。",
+    "category": "合作比賽",
+    "type": ["專題", "Angular練習"],
     "link": "project-detail.html?id=9"
   },
   {
+    "id": 10,
+    "img": "讓愛跨越流浪.png",
+    "title": "讓愛跨越流浪",
+    "desc": "網頁合作設計，以溫馨風格設計主視覺，傳達流浪動物關懷理念。",
+    "category": "網頁合作設計",
+    "type": ["Web開發"],
+    "link": "project-detail.html?id=10"
+  },
+  {
+    "id": 11,
     "img": "烏弄.png",
     "title": "飲料品牌網頁設計",
     "desc": "模擬烏弄品牌風格進行網頁設計，展現商業風格切版能力。",
     "category": "網頁設計",
-    "type": [
-      "Web開發"
-    ],
-    "link": "project-detail.html?id=10"
-  },
-  {
-    "img": "netfix.png",
-    "title": " Netflix 動畫剪輯",
-    "desc": "使用Premiere Pro 剪輯 Netflix 片段，展示影片剪輯技巧。",
-    "category": "影片剪輯",
-    "type": [
-      "影片剪輯"
-    ],
+    "type": ["Web開發"],
     "link": "project-detail.html?id=11"
   },
   {
-    "img": "個人網頁程式語言.png",
-    "title": "個人技能展示頁面",
-    "desc": "設計網頁，展示使用者熟悉的前端開發語言與技能。",
-    "category": "Web開發",
-    "type": [
-      "Web開發"
-    ],
+    "id": 12,
+    "img": "網頁展示奶酪.png",
+    "title": "網頁展示奶酪品牌形象",
+    "desc": "設計一頁式視覺網站，展現品牌特色與甜品視覺風格。",
+    "category": "網頁設計",
+    "type": ["Web開發"],
     "link": "project-detail.html?id=12"
   },
   {
-    "img": "singUpPageOkImg純css.png",
-    "title": "頁面設計",
-    "desc": "不使用JavaScript，僅以HTML和CSS打造互動式介面。",
-    "category": "CSS練習",
-    "type": [
-      "Web開發"
-    ],
+    "id": 13,
+    "img": "appFigma.png",
+    "title": "Apple 官方頁面再設計",
+    "desc": "以 Figma 重構 Apple 首頁排版，練習 UI/UX 設計流程。",
+    "category": "UI/UX 設計",
+    "type": ["Figma設計"],
     "link": "project-detail.html?id=13"
   },
   {
-    "img": "星際大戰爭.png",
-    "title": "星際遊戲設計",
-    "desc": "以星際大戰為靈感製作傳統遊戲，呈現動態特的飛行射擊遊戲。",
-    "category": "期末報告",
-    "type": [
-      "C++專案"
-    ],
+    "id": 14,
+    "img": "Ai_230427_浦燒镘魚版面設計.png",
+    "title": "浦燒鰻魚版面設計",
+    "desc": "美編版面設計練習，聚焦產品頁面排版與品牌觀感呈現。",
+    "category": "版面設計",
+    "type": ["IE作品"],
     "link": "project-detail.html?id=14"
   },
   {
-    "img": "•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
-    "title": "會員系統開發流程圖",
-    "desc": "展示會員功能開發歷程，涵蓋資料映射與除錯過程。",
-    "category": "系統設計",
-    "type": [
-      "專題"
-    ],
+    "id": 15,
+    "img": "個人網頁程式語言.png",
+    "title": "個人技能展示頁面",
+    "desc": "設計網頁，展示熟悉的前端開發語言與技能，是最初完成的個人網頁。",
+    "category": "Web 開發",
+    "type": ["Web開發"],
     "link": "project-detail.html?id=15"
   },
   {
-    "img": "計算機.png",
-    "title": "Java桌面應用程序",
-    "desc": "使用Java開發的桌面應用程序，結合AWT技術實現友好的用戶界面。",
-    "category": "Java專案",
-    "type": [
-      "Java專案"
-    ],
+    "id": 16,
+    "img": "singUpPageOkImg純css.png",
+    "title": "頁面設計（純 CSS）",
+    "desc": "不使用 JavaScript，僅以 HTML 和 CSS 打造的互動式註冊頁面介面。",
+    "category": "CSS 練習",
+    "type": ["Web開發"],
     "link": "project-detail.html?id=16"
   },
   {
-    "img": "spythonC248.png",
-    "title": "網頁數據爬蟲系統",
-    "desc": "使用Python開發的高效網頁爬蟲系統，能夠收集和網絡數據，並強化程式邏輯與錯誤處理經驗。",
-    "category": "爬蟲專案",
-    "type": [
-      "爬蟲專案"
-    ],
+    "id": 17,
+    "img": "星際大戰爭.png",
+    "title": "星際大戰爭（終端機遊戲）",
+    "desc": "C 語言期末報告，以星際大戰為靈感製作的終端機文字飛行射擊遊戲，支援方向鍵操控、計分與暫停功能。",
+    "category": "期末報告",
+    "type": ["C專案"],
     "link": "project-detail.html?id=17"
   },
   {
-    "img": "#",
-    "title": "Angular 使用者系統",
-    "desc": " 使用 Angular 框架設計，建立模組化設計與狀態管理。",
-    "category": "Angular專案",
-    "type": [
-      "Angular專案"
-    ],
+    "id": 18,
+    "img": "github.png",
+    "title": "開源協作與版本控制",
+    "desc": "在 GitHub 上管理多個練習與專題 repo，熟悉 Git 版本控制與團隊協作流程。",
+    "category": "GitHub",
+    "type": ["GitHub專案"],
     "link": "project-detail.html?id=18"
   },
-    {
-    "img": "github.png",
-    "title": "開源協作專案",
-    "desc": "在GitHub上參與開發的開源專案，展示了版本控制和團隊協作能力。",
-    "category": "GitHub專案",
-    "type": [
-      "GitHub專案"
-    ],
+  {
+    "id": 19,
+    "img": null,
+    "icon": "🅰️",
+    "title": "Angular 前端練習",
+    "desc": "多個 Angular 練習與正式小專案 repo，練習元件化開發、路由與狀態管理。",
+    "category": "前端框架練習",
+    "type": ["Angular練習"],
     "link": "project-detail.html?id=19"
   },
   {
-    "img": "python69.png",
-    "title": "Python 爬蟲",
-    "desc": "使用 pyhton套件 等工具 ，自動化擷取網頁內容進行分析。",
-    "category": "Python專案",
-    "type": [
-      "Python專案"
-    ],
-    "link": "project-detail.html?id=7"
-  },
-  {
-    "img": "#",
-    "title": "sql 資料庫語法",
-    "desc": "使用 SQL 語法進行資料庫操作，熟悉資料庫設計與查詢語言。",
-    "category": "sql server",
-    "type": [
-      "sql server"
-    ],
-    "link": "project-detail.html?id=8"
+    "id": 20,
+    "img": "netfix.png",
+    "title": "Netflix 動畫剪輯",
+    "desc": "使用 Adobe After Effects 剪輯 Netflix 風格片段，練習動畫特效與轉場技巧。",
+    "category": "動畫剪輯",
+    "type": ["影片剪輯"],
+    "link": "project-detail.html?id=20"
   }
 ]

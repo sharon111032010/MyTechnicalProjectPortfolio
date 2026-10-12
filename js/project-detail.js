@@ -94,9 +94,13 @@ function fetchAndRenderProject() {
 
 function renderProject(project) {
     // 標題、分類、日期
-    document.querySelector(".project-title").textContent = project.title;
+    document.querySelector(".project-title").textContent = project.featured
+        ? `⭐ ${project.title}`
+        : project.title;
     document.querySelector(".project-category").textContent = project.category;
-    document.querySelector(".project-date").textContent = project.date;
+    document.querySelector(".project-date").textContent = project.status
+        ? `${project.date}（${project.status}）`
+        : project.date;
 
     // 標籤
     const tagsContainer = document.querySelector(".project-tags");
@@ -108,16 +112,18 @@ function renderProject(project) {
         tagsContainer.appendChild(span);
     });
 
-    // 主圖
+    // 主圖（沒有截圖時顯示圖示佔位）
     const imageMain = document.querySelector(".project-image-main");
-    imageMain.innerHTML = `<img src="${project.mainImage}" alt="${project.title}" />`;
+    if (project.mainImage) {
+        imageMain.innerHTML = `<img src="${project.mainImage}" alt="${project.title}" />`;
+        imageMain.classList.remove("project-image-placeholder");
+    } else {
+        imageMain.innerHTML = "";
+        imageMain.classList.add("project-image-placeholder");
+    }
 
     // 描述
-    document.querySelector(".project-description").textContent = project.description;
-
     const descriptionContainer = document.querySelector(".project-description");
-
-    // 清空原本內容
     descriptionContainer.innerHTML = "";
 
     // 加入描述段落
@@ -161,52 +167,70 @@ function renderProject(project) {
     // 資訊欄位
     document.querySelector(".project-completion-date").textContent = project.completionDate;
     document.querySelector(".project-developer").textContent = project.developer;
-    document.querySelector(".project-supervisor").textContent = project.supervisor;
+
+    const supervisorRow = document.querySelector(".project-supervisor-row");
+    if (project.supervisor) {
+        supervisorRow.querySelector(".project-supervisor").textContent = project.supervisor;
+        supervisorRow.style.display = "";
+    } else {
+        supervisorRow.style.display = "none";
+    }
 
     // 連結
     const linksContainer = document.querySelector(".project-links");
+    const linksItem = linksContainer.closest(".project-info-item");
     linksContainer.innerHTML = "";
-    project.links.forEach(link => {
-        const a = document.createElement("a");
-        a.className = "project-link";
-        a.href = link.url;
-        a.target = "_blank";
-        a.textContent = link.text;
-        linksContainer.appendChild(a);
-    });
+    if (project.links && project.links.length > 0) {
+        linksItem.style.display = "";
+        project.links.forEach(link => {
+            const a = document.createElement("a");
+            a.className = "project-link";
+            a.href = link.url;
+            a.target = "_blank";
+            a.textContent = link.text;
+            linksContainer.appendChild(a);
+        });
+    } else {
+        linksItem.style.display = "none";
+    }
 
-    // 圖片畫廊
+    // 圖片畫廊（沒有額外圖片就整段隱藏）
+    const gallerySection = document.querySelector(".project-gallery");
     const gallery = document.querySelector(".gallery-grid");
     gallery.innerHTML = "";
-    project.galleryImages.forEach(src => {
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = "Gallery Image";
-        gallery.appendChild(img);
-    });
-
-    // 畫廊標題（有圖才顯示）
-    document.querySelector(".gallery-title").textContent = "圖片畫廊";
-
+    if (project.galleryImages && project.galleryImages.length > 0) {
+        gallerySection.style.display = "";
+        document.querySelector(".gallery-title").textContent = "圖片畫廊";
+        project.galleryImages.forEach(src => {
+            const img = document.createElement("img");
+            img.src = src;
+            img.alt = "Gallery Image";
+            gallery.appendChild(img);
+        });
+    } else {
+        gallerySection.style.display = "none";
+    }
 
     // 上一個專案
-    const prevLink = document.querySelector(".nav-previous .nav-link");
+    const prevContainer = document.querySelector(".nav-previous");
     const prevTitle = document.querySelector(".nav-previous .nav-project-title");
     if (project.previousProject && project.previousProject.title) {
-        prevLink.href = `project-detail.html?id=${project.previousProject.id || ''}`;
+        prevContainer.querySelector(".nav-link").href = `project-detail.html?id=${project.previousProject.id || ''}`;
         prevTitle.textContent = project.previousProject.title;
+        prevContainer.style.visibility = "";
     } else {
-        prevLink.style.display = "none";
+        prevContainer.style.visibility = "hidden";
     }
 
     // 下一個專案
-    const nextLink = document.querySelector(".nav-next .nav-link");
+    const nextContainer = document.querySelector(".nav-next");
     const nextTitle = document.querySelector(".nav-next .nav-project-title");
     if (project.nextProject && project.nextProject.title) {
-        nextLink.href = `project-detail.html?id=${project.nextProject.id || ''}`;
+        nextContainer.querySelector(".nav-link").href = `project-detail.html?id=${project.nextProject.id || ''}`;
         nextTitle.textContent = project.nextProject.title;
+        nextContainer.style.visibility = "";
     } else {
-        nextLink.style.display = "none";
+        nextContainer.style.visibility = "hidden";
     }
 
 }

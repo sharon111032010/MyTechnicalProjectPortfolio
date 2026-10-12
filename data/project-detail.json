@@ -1,811 +1,582 @@
 [
-    {
-        "project": {
-            "id": 1,
-            "title": "畢業專題 - 校園智慧系統",
-            "category": "專題",
-            "date": "完成日期: 2025年12月",
-            "tags": [
-                "AI",
-                "Angular",
-                "ASP.NET",
-                "SQL Server"
-            ],
-            "mainImage": "./img/專題首頁.png",
-            "description": "運用人工智能和生成式 AI 技術的創新應用系統，解決現實校園中的問題。",
-            "researchGoals": [
-                "提升校園服務自動化",
-                "構建多功能 AI 輔助平台",
-                "優化 Chatbot 回應品質"
-            ],
-            "technicalImplementation": [
-                "使用 Angular 前端框架搭建界面",
-                "後端採用 ASP.NET Core 作為 API 支援",
-                "整合 GPT 生成式模型與 SQL Server 資料庫"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Project1-1",
-                "https://via.placeholder.com/600x400?text=Project1-2"
-            ],
-            "completionDate": "2025年6月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [
-                {
-                    "text": "專案報告",
-                    "url": "#"
-                }
-            ],
-            "previousProject": null,
-            "nextProject": {
-                "title": "響應式個人網站",
-                "id": 2
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 2,
-            "title": "陳雪葶的個人作品集",
-            "category": "個人網站",
-            "date": "完成日期: 2025年1月",
-            "tags": [
-                "HTML5",
-                "CSS3",
-                "JavaScript",
-                "前端開發"
-            ],
-            "mainImage": "./img/作品集.png",
-            "description": "這是我的個人作品集網站，展示了我在前端開發方面的技能和專案經驗。",
-            "researchGoals": [
-                "建立個人品牌展示平台",
-                "實現響應式設計",
-                "呈現多項專案內容"
-            ],
-            "technicalImplementation": [
-                "HTML5 + CSS3 完成頁面切版",
-                "JavaScript 實現互動功能",
-                "Figma 設計原型與佈局"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Portfolio+1",
-                "https://via.placeholder.com/600x400?text=Portfolio+2"
-            ],
-            "completionDate": "2025年1月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "畢業專題 - 校園智慧系統",
-                "id": 1
-            },
-            "nextProject": {
-                "title": "浦燒镘魚版面設計",
-                "id": 3
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 3,
-            "title": "浦燒镘魚版面設計",
-            "category": "UI/UX 設計",
-            "date": "完成日期: 2024年9月",
-            "tags": [
-                "Figma",
-                "版面設計",
-                "視覺排版"
-            ],
-            "mainImage": "./img/Ai_230427_浦燒镘魚版面設計.png",
-            "description": "使用 AI 設計浦燒镘魚產品頁面，聚焦排版與品牌觀感。",
-            "researchGoals": [
-                "理解品牌視覺風格",
-                "實作高水準 UI 排版設計",
-                "分析使用者介面視覺流程"
-            ],
-            "technicalImplementation": [
-                "AI 繪製 UI wireframe",
-                "使用色彩與字體建立品牌感",
-                "整理並輸出高品質設計規格"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Design+2",
-                "https://via.placeholder.com/600x400?text=Design+3"
-            ],
-            "completionDate": "2024年9月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "陳雪葶的個人作品集",
-                "id": 2
-            },
-            "nextProject": {
-                "title": "智慧藥盒系統設計",
-                "id": 4
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 4,
-            "title": "大手攜小手比賽",
-            "category": "專題比賽",
-            "date": "完成日期: 2023年11月",
-            "tags": [
-                "智慧藥盒",
-                "感測器",
-                "提醒系統"
-            ],
-            "mainImage": "./img/智慧藥盒.png",
-            "description": "運用感測與提醒功能，協助使用者準時服藥，提升健康管理效率。",
-            "researchGoals": [
-                "整合感測器與提醒機制",
-                "設計使用者操作流程",
-                "提升健康依從性"
-            ],
-            "technicalImplementation": [
-                "Arduino 控制蜂鳴器與 LED",
-                "整合 RTC 時鐘模組",
-                "紅外線感測藥物拿取"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Smart+Box+1",
-                "https://via.placeholder.com/600x400?text=Smart+Box+2"
-            ],
-            "completionDate": "2023年11月",
-            "developer": "陳雪葶、林欣渝、陳柏宏、洪瑋程",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "浦燒镘魚版面設計",
-                "id": 3
-            },
-            "nextProject": {
-                "title": "網頁展示奶酪品牌形象",
-                "id": 5
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 5,
-            "title": "網頁展示奶酪品牌形象",
-            "category": "網頁設計",
-            "date": "完成日期: 2024年2月",
-            "tags": [
-                "品牌",
-                "UI",
-                "Web"
-            ],
-            "mainImage": "./img/網頁展示奶酪.png",
-            "description": "設計一頁式品牌網站，展現奶酪產品特色與視覺風格。",
-            "researchGoals": [
-                "建立品牌主視覺",
-                "優化顧客瀏覽體驗",
-                "單頁網站切版設計"
-            ],
-            "technicalImplementation": [
-                "HTML/CSS 切版",
-                "加入圖像素材與互動效果",
-                "品牌圖像資產處理"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Cheese+Web+1",
-                "https://via.placeholder.com/600x400?text=Cheese+Web+2"
-            ],
-            "completionDate": "2024年2月",
-            "developer": "陳雪葶、陳鈺晴、劉柏緯、范采芮、林采霓、賴羿翰",
-            "supervisor": null,
-            "links": [
-                {
-                    "text": "GitHub專案頁面",
-                    "url": "https://github.com/NUTCGroup/NUTCGroup.github.io"
-                },
-                {
-                    "text": "網站連結",
-                    "url": "https://nutcgroup.github.io"
-                }
-            ],
-            "previousProject": {
-                "title": "智慧藥盒系統設計",
-                "id": 4
-            },
-            "nextProject": {
-                "title": "Apple 官方頁面再設計",
-                "id": 6
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 6,
-            "title": "Apple 官方頁面再設計",
-            "category": "UI/UX 設計",
-            "date": "完成日期: 2024年3月",
-            "tags": [
-                "Figma",
-                "UI/UX",
-                "設計"
-            ],
-            "mainImage": "./img/appFigma.png",
-            "description": "以 Figma 重構 Apple 首頁排版，練習 UI/UX 設計流程。",
-            "researchGoals": [
-                "分析 Apple 品牌風格",
-                "重構使用者流程與界面",
-                "設計互動原型"
-            ],
-            "technicalImplementation": [
-                "Figma",
-                "響應式 UI 設計",
-                "整理設計系統元件庫"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Apple+Design+1",
-                "https://via.placeholder.com/600x400?text=Apple+Design+2"
-            ],
-            "completionDate": "2024年3月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "網頁展示奶酪品牌形象",
-                "id": 5
-            },
-            "nextProject": {
-                "title": "Java 應用程式練習",
-                "id": 7
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 7,
-            "title": "Java 應用程式練習",
-            "category": "Java 專案",
-            "date": "完成日期: 2024年5月",
-            "tags": [
-                "Java",
-                "Android",
-                "UI",
-                "資料傳遞"
-            ],
-            "mainImage": "./img/javaApp.png",
-            "description": "這是一個使用 Java 開發的 Android 應用程式，練習基本的介面設計、資料傳遞與功能實作。",
-            "researchGoals": [
-                "熟悉 Android UI 設計",
-                "實作畫面間資料傳遞",
-                "提升功能實作能力"
-            ],
-            "technicalImplementation": [
-                "透過 Android Studio 開發",
-                "使用 Intent 傳遞資料",
-                "設計多頁介面"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=JavaApp+1",
-                "https://via.placeholder.com/600x400?text=JavaApp+2"
-            ],
-            "completionDate": "2024年5月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "Apple 官方頁面再設計",
-                "id": 6
-            },
-            "nextProject": {
-                "title": "投票系統",
-                "id": 8
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 8,
-            "title": "投票系統",
-            "category": "合作比賽",
-            "date": "完成日期: 2024年6月",
-            "tags": [
-                "投票系統",
-                "Web",
-                "互動"
-            ],
-            "mainImage": "./img/商經比賽Ｅ起區投票.png",
-            "description": "這是我參加的一場比賽，作品是設計一個投票系統，用來讓使用者能夠方便地進行投票。",
-            "researchGoals": [
-                "實現簡易的投票功能",
-                "提供使用者安全性、匿名性、公平性",
-                "良好的用戶辨識"
-            ],
-            "technicalImplementation": [
-                "使用 Angular CLI 建立專案",
-                "區塊鏈模組",
-                "資料隱藏、資料藏匿 ",
-                "座標量化、特徵擷取"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Vote+System+1",
-                "https://via.placeholder.com/600x400?text=Vote+System+2"
-            ],
-            "completionDate": "2024年6月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "Java 應用程式練習",
-                "id": 7
-            },
-            "nextProject": {
-                "title": "讓愛跨越流浪",
-                "id": 9
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 9,
-            "title": "讓愛跨越流浪",
-            "category": "網頁合作設計",
-            "date": "完成日期: 2024年7月",
-            "tags": [
-                "Web 開發",
-                "動物關懷",
-                "UI 設計"
-            ],
-            "mainImage": "./img/讓愛跨越流浪.png",
-            "description": "以溫馨風格設計主視覺，傳達流浪動物關懷理念。",
-            "researchGoals": [
-                "提升流浪動物關懷意識",
-                "實作溫馨品牌形象",
-                "優化使用者瀏覽體驗"
-            ],
-            "technicalImplementation": [
-                "HTML/CSS 切版與佈局",
-                "加入互動效果與動畫",
-                "設計品牌圖像資產"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Animal+Care+1",
-                "https://via.placeholder.com/600x400?text=Animal+Care+2"
-            ],
-            "completionDate": "2024年7月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [
-                {
-                    "text": "GitHub專案頁面",
-                    "url": "https://github.com/sharon111032010/WebDesignFinalProject113"
-                },
-                {
-                    "text": "網站連結",
-                    "url": "https://sharon111032010.github.io/WebDesignFinalProject113/"
-                }
-            ],
-            "previousProject": {
-                "title": "投票系統",
-                "id": 8
-            },
-            "nextProject": {
-                "title": "飲料品牌網頁設計",
-                "id": 10
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 10,
-            "title": "飲料品牌網頁設計",
-            "category": "網頁設計",
-            "date": "完成日期: 2024年8月",
-            "tags": [
-                "Web 開發",
-                "品牌設計",
-                "UI/UX"
-            ],
-            "mainImage": "./img/烏弄.png",
-            "description": "模擬烏弄品牌風格進行網頁設計，展現商業風格切版能力。",
-            "researchGoals": [
-                "建立品牌視覺識別",
-                "優化使用者互動體驗",
-                "實作響應式設計"
-            ],
-            "technicalImplementation": [
-                "HTML/CSS 切版與佈局",
-                "JavaScript 實現互動功能"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Drink+Brand+1",
-                "https://via.placeholder.com/600x400?text=Drink+Brand+2"
-            ],
-            "completionDate": "2024年8月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "讓愛跨越流浪",
-                "id": 9
-            },
-            "nextProject": {
-                "title": "Netflix 動畫剪輯",
-                "id": 11
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 11,
-            "title": "Netflix 動畫剪輯",
-            "category": "動畫剪輯",
-            "date": "完成日期: 2024年9月",
-            "tags": [
-                "動畫剪輯"
-            ],
-            "mainImage": "./img/netfix.png",
-            "description": "使用 AE Netflix 剪輯影片動畫。",
-            "researchGoals": [
-                "實現動畫效果與互動功能",
-                "學習影片動畫銜接技巧",
-                "提升影片剪輯能力"
-            ],
-            "technicalImplementation": [
-                "使用 Adobe After Effects 剪輯影片",
-                "實現動畫特效與過渡",
-                "調整音效與視覺效果"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Netflix+1",
-                "https://via.placeholder.com/600x400?text=Netflix+2"
-            ],
-            "completionDate": "2024年9月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "飲料品牌網頁設計",
-                "id": 10
-            },
-            "nextProject": {
-                "title": "個人技能展示頁面",
-                "id": 12
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 12,
-            "title": "個人技能展示頁面",
-            "category": "Web 開發",
-            "date": "完成日期: 2024年10月",
-            "tags": [
-                "HTML",
-                "CSS",
-                "前端技能"
-            ],
-            "mainImage": "./img/個人網頁程式語言.png",
-            "description": "設計介紹頁，展示使用者熟悉的前端開發語言與技能。",
-            "researchGoals": [
-                "建立個人技能展示平台",
-                "實現個人網站設計",
-                "呈現多項專案內容"
-            ],
-            "technicalImplementation": [
-                "HTML5 + CSS3 完成頁面切版",
-                "Figma 設計原型與佈局"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Skills+1",
-                "https://via.placeholder.com/600x400?text=Skills+2"
-            ],
-            "completionDate": "2024年10月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [
-                {
-                    "text": "GitHub專案頁面",
-                    "url": "https://github.com/101152sharon/mainHome"
-                },
-                {
-                    "text": "網站連結",
-                    "url": "https://101152sharon.github.io/mainHome/"
-                }
-            ],
-            "previousProject": {
-                "title": "Netflix 動畫剪輯",
-                "id": 11
-            },
-            "nextProject": {
-                "title": "頁面設計",
-                "id": 13
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 13,
-            "title": "頁面設計",
-            "category": "CSS練習",
-            "date": "完成日期: 2024年11月",
-            "tags": [
-                "HTML",
-                "CSS",
-                "互動"
-            ],
-            "mainImage": "./img/singUpPageOkImg純css.png",
-            "description": "不使用JavaScript，僅以HTML和CSS打造互動式介面。",
-            "researchGoals": [
-                "實現純 CSS 的互動效果",
-                "提升前端切版能力",
-                "練習表單設計"
-            ],
-            "technicalImplementation": [
-                "HTML5 結構化內容",
-                "CSS3 動畫與特效設計",
-                "響應式設計實作"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=SignUp+1",
-                "https://via.placeholder.com/600x400?text=SignUp+2"
-            ],
-            "completionDate": "2024年11月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "個人技能展示頁面",
-                "id": 12
-            },
-            "nextProject": {
-                "title": "星際主題創意頁面",
-                "id": 14
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 14,
-            "title": "星際主題創意頁面",
-            "category": "創意作品",
-            "date": "完成日期: 2024年12月",
-            "tags": [
-                "Figma",
-                "UI/UX",
-                "創意"
-            ],
-            "mainImage": "./img/星際大戰爭.png",
-            "description": "以星際大戰為靈感製作視覺頁面，呈現動態特效與風格化字體。",
-            "researchGoals": [
-                "實現星際主題的視覺效果",
-                "練習 Figma 設計流程",
-                "提升 UI/UX 設計能力"
-            ],
-            "technicalImplementation": [
-                "Figma wireframe 與 prototype",
-                "響應式 UI 設計",
-                "整理設計系統元件庫"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Star+Wars+1",
-                "https://via.placeholder.com/600x400?text=Star+Wars+2"
-            ],
-            "completionDate": "2024年12月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "註冊頁面設計（純CSS）",
-                "id": 13
-            },
-            "nextProject": {
-                "title": "電子商務網站設計",
-                "id": 15
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 15,
-            "title": "電子商務網站設計",
-            "category": "Web 開發",
-            "date": "完成日期: 2025年3月",
-            "tags": [
-                "電子商務",
-                "UI/UX",
-                "前端後開發"
-            ],
-            "mainImage": "./img/•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
-            "description": "設計一個完整的電子商務網站會員管理系統。",
-            "researchGoals": [
-                "實現完整CRUD會員管理功能",
-                "提升使用者體驗與介面美觀",
-                "整合後端資料庫"
-            ],
-            "technicalImplementation": [
-                "HTML/CSS 完成頁面切版",
-                "JavaScript 實現互動功能",
-                "後端整合資料庫管理商品"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=E-commerce+1",
-                "https://via.placeholder.com/600x400?text=E-commerce+2"
-            ],
-            "completionDate": "2025年3月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "AI 聊天機器人",
-                "id": 14
-            },
-            "nextProject": {
-                "title": "java計算機GUI",
-                "id": 16
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 16,
-            "title": "java計算機GUI",
-            "category": "Java 開發",
-            "date": "完成日期: 2025年2月",
-            "tags": [
-                "Java",
-                "GUI",
-                "計算機"
-            ],
-            "mainImage": "./img/計算機.png",
-            "description": "使用 Java Swing 開發一個簡單的計算機應用程式，實現基本的加減乘除功能。",
-            "researchGoals": [
-                "熟悉 Java Swing GUI 開發",
-                "實現基本計算功能",
-                "提升使用者介面互動性"
-            ],
-            "technicalImplementation": [
-                "使用 Java Swing 建立 GUI",
-                "實現事件處理與計算邏輯",
-                "設計直觀的使用者介面"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Calculator+1",
-                "https://via.placeholder.com/600x400?text=Calculator+2"
-            ],
-            "completionDate": "2025年2月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "電子商務網站設計",
-                "id": 15
-            },
-            "nextProject": {
-                "title": "AI 聊天機器人",
-                "id": 17
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 17,
-            "title": "網頁數據爬蟲系統",
-            "category": "Python 開發",
-            "date": "完成日期: 2025年3月",
-            "tags": [
-                "Python",
-                "爬蟲",
-                "數據分析"
-            ],
-            "mainImage": "./img/spythonC248.png",
-            "description": "開發一個網頁數據爬蟲系統，用於抓取特定網站的數據並進行分析。",
-            "researchGoals": [
-                "實現網頁數據抓取功能",
-                "提升數據分析能力",
-                "整合數據可視化工具"
-            ],
-            "technicalImplementation": [
-                "使用 Python 的 BeautifulSoup 庫進行網頁解析",
-                "整合 Pandas 處理數據分析"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Web+Scraper+1",
-                "https://via.placeholder.com/600x400?text=Web+Scraper+2"
-            ],
-            "completionDate": "2025年3月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "java計算機GUI",
-                "id": 16
-            },
-            "nextProject": {
-                "title": "Angular 前端開發",
-                "id": 18
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 18,
-            "title": "Angular 前端開發",
-            "category": "Web 開發",
-            "date": "完成日期: 2025年4月",
-            "tags": [
-                "Angular",
-                "前端開發",
-                "Web 應用"
-            ],
-            "mainImage": "Angular前端開發.png",
-            "description": "使用 Angular 框架開發一個動態的 Web 應用程式，實現資料綁定與路由功能。",
-            "researchGoals": [
-                "熟悉 Angular 框架特性",
-                "實現動態資料綁定",
-                "設計響應式使用者介面"
-            ],
-            "technicalImplementation": [
-                "使用 Angular CLI 建立專案",
-                "實現組件化開發",
-                "整合路由與服務"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=Angular+1",
-                "https://via.placeholder.com/600x400?text=Angular+2"
-            ],
-            "completionDate": "2025年4月",
-            "developer": "陳雪葶",
-            "supervisor": null,
-            "links": [],
-            "previousProject": {
-                "title": "網頁數據爬蟲系統",
-                "id": 17
-            },
-            "nextProject": {
-                "title": "GitHub 指令集",
-                "id": 19
-            }
-        }
-    },
-    {
-        "project": {
-            "id": 19,
-            "title": "github指令集",
-            "category": "GitHub 教學",
-            "date": "完成日期: 2025年2月",
-            "tags": [
-                "Git",
-                "GitHub",
-                "版本控制"
-            ],
-            "mainImage": "./img/github.png",
-            "description": "這是一個 GitHub 指令集的教學專案，幫助使用者熟悉 Git 和 GitHub 的基本操作。",
-            "researchGoals": [
-                "了解 Git 版本控制系統",
-                "掌握 GitHub 的基本操作",
-                "學習如何管理專案版本"
-            ],
-            "technicalImplementation": [
-                "使用 Git 命令行工具進行版本控制",
-                "在 GitHub 上建立和管理倉庫",
-                "撰寫 README 文件說明專案"
-            ],
-            "galleryImages": [
-                "https://via.placeholder.com/600x400?text=GitHub+1",
-                "https://via.placeholder.com/600x400?text=GitHub+2"
-            ],
-            "completionDate": "2025年2月",
-            "developer": "陳雪葶",
-            "supervisor": "李教授",
-            "links": [
-                {
-                    "text": "GitHub 專案頁面",
-                    "url": "#"
-                }
-            ],
-            "previousProject": {
-                "title": "Angular 前端開發",
-                "id": 18
-            },
-            "nextProject": null
-        }
+  {
+    "project": {
+      "id": 1,
+      "title": "AI 校園智慧助手 SmartCampus",
+      "category": "畢業專題",
+      "date": "完成日期：2026年6月",
+      "tags": ["Angular", "TypeScript", "ASP.NET Core", "SQL Server", "RAG"],
+      "mainImage": "./img/smartCampus-login.png",
+      "description": "聊天式校園查詢系統，把分散的公告、規章與請假、選課等行政流程整合起來，學生只要用一句話就能查到答案。",
+      "researchGoals": [
+        "提升校園服務自動化",
+        "構建多功能 AI 輔助平台",
+        "優化 Chatbot 回應品質"
+      ],
+      "technicalImplementation": [
+        "前端以 Angular（TypeScript、SCSS、Angular Material）打造聊天介面、使用者管理與流量儀表板",
+        "後端採 ASP.NET Core 提供 RESTful API，並串接 SQL Server 資料庫",
+        "整合 RAG（檢索增強生成）模型，提升問答準確度",
+        "前後端與資料庫串接時只顯示連線失敗，逐步縮小範圍後找出是資料庫連線金鑰設定錯誤"
+      ],
+      "galleryImages": [],
+      "completionDate": "2026年6月",
+      "developer": "陳雪葶（負責前端開發與 UI 設計，團隊專題）",
+      "supervisor": null,
+      "featured": true,
+      "links": [
+        { "text": "專案原始碼 GitHub", "url": "https://github.com/sharon111032010/Graduation-_PJ" }
+      ],
+      "previousProject": null,
+      "nextProject": { "title": "WiFi CSI 無攝影機感測系統", "id": 2 }
     }
+  },
+  {
+    "project": {
+      "id": 2,
+      "title": "WiFi CSI 無攝影機感測系統",
+      "category": "二技專題",
+      "date": "完成日期：－",
+      "tags": ["ESP32-S3", "WiFi CSI", "IoT", "嵌入式"],
+      "mainImage": null,
+      "description": "目標是用 ESP32-S3 蒐集 WiFi CSI 訊號來偵測人體活動，不需要架設攝影機，兼顧隱私與低成本佈建。",
+      "researchGoals": [
+        "研讀 WiFi CSI 感測原理與相關文獻",
+        "以 ESP32-S3 完成硬體建置與韌體測試",
+        "驗證無攝影機人體活動偵測的可行性"
+      ],
+      "technicalImplementation": [
+        "使用 ESP32-S3 開發板蒐集 WiFi CSI 訊號",
+        "進行韌體撰寫與燒錄測試",
+        "研讀相關論文與感測原理資料"
+      ],
+      "galleryImages": [],
+      "completionDate": "進行中（二技專題）",
+      "developer": "陳雪葶（個人專題，獨立進行，目前於前期階段）",
+      "supervisor": null,
+      "featured": true,
+      "status": "進行中",
+      "links": [],
+      "previousProject": { "title": "AI 校園智慧助手 SmartCampus", "id": 1 },
+      "nextProject": { "title": "智慧藥盒用藥系統", "id": 3 }
+    }
+  },
+  {
+    "project": {
+      "id": 3,
+      "title": "智慧藥盒用藥系統",
+      "category": "競賽作品",
+      "date": "完成日期：2023年12月",
+      "tags": ["智慧藥盒", "感測器", "提醒系統"],
+      "mainImage": "./img/智慧藥盒.png",
+      "description": "技職校院大手攜小手智慧創新應用競賽參賽作品，運用感測與提醒功能協助使用者準時服藥，提升健康管理效率，榮獲佳作。",
+      "researchGoals": [
+        "整合感測器與提醒機制",
+        "設計使用者操作流程",
+        "提升用藥遵從性"
+      ],
+      "technicalImplementation": [
+        "參與計畫書撰寫與資料蒐集，決賽上台簡報",
+        "Arduino 控制蜂鳴器與 LED 提醒",
+        "紅外線感測藥物拿取狀態"
+      ],
+      "galleryImages": [],
+      "completionDate": "2023年12月",
+      "developer": "陳雪葶、林欣渝、陳柏宏、洪瑋程",
+      "supervisor": "林煒凌",
+      "links": [],
+      "previousProject": { "title": "WiFi CSI 無攝影機感測系統", "id": 2 },
+      "nextProject": { "title": "會員資訊系統", "id": 4 }
+    }
+  },
+  {
+    "project": {
+      "id": 4,
+      "title": "會員資訊系統",
+      "category": "系統設計",
+      "date": "完成日期：2025年1月",
+      "tags": ["會員系統", "資料映射", "除錯"],
+      "mainImage": "./img/•發想 •新增會員 •會員資料 •映射資料 •Debug.png",
+      "description": "課堂團隊專題，設計會員資料的新增、查詢與資料映射流程，從發想、建立會員、資料映射到除錯，完整走過一次系統開發歷程。",
+      "researchGoals": [
+        "設計會員資料結構與操作流程",
+        "練習資料映射與欄位對應",
+        "累積實際除錯經驗"
+      ],
+      "technicalImplementation": [
+        "規劃會員資料新增與查詢流程",
+        "進行資料映射與欄位對應設計",
+        "執行功能測試與除錯"
+      ],
+      "galleryImages": [],
+      "completionDate": "2025年1月",
+      "developer": "陳雪葶、林采霓",
+      "supervisor": "陳奐瑀",
+      "links": [],
+      "previousProject": { "title": "智慧藥盒用藥系統", "id": 3 },
+      "nextProject": { "title": "個人作品集網站", "id": 5 }
+    }
+  },
+  {
+    "project": {
+      "id": 5,
+      "title": "個人作品集網站",
+      "category": "個人網站",
+      "date": "完成日期：持續更新中",
+      "tags": ["HTML5", "CSS3", "JavaScript", "前端開發"],
+      "mainImage": "./img/作品集.png",
+      "description": "就是你現在瀏覽的這個網站，從切版、互動功能到資料驅動的作品展示頁面，都是獨力完成的前端練習。",
+      "researchGoals": [
+        "建立個人品牌展示平台",
+        "實作資料驅動的作品展示機制",
+        "練習響應式版面設計"
+      ],
+      "technicalImplementation": [
+        "HTML5 + CSS3 完成頁面切版",
+        "JavaScript 動態讀取 JSON 渲染作品卡片與篩選功能",
+        "Figma 設計原型與版面配置"
+      ],
+      "galleryImages": [],
+      "completionDate": "持續更新中",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [
+        { "text": "GitHub 原始碼", "url": "https://github.com/sharon111032010/MyTechnicalProjectPortfolio" }
+      ],
+      "previousProject": { "title": "會員資訊系統", "id": 4 },
+      "nextProject": { "title": "網頁數據爬蟲系統", "id": 6 }
+    }
+  },
+  {
+    "project": {
+      "id": 6,
+      "title": "網頁數據爬蟲系統",
+      "category": "Python 開發",
+      "date": "完成日期：2025年3月",
+      "tags": ["Python", "爬蟲", "資料分析"],
+      "mainImage": "./img/spythonC248.png",
+      "description": "開發網頁數據爬蟲系統，抓取特定網站資料並進行整理分析，強化程式邏輯與錯誤處理經驗。",
+      "researchGoals": [
+        "實現網頁資料抓取功能",
+        "提升資料分析能力",
+        "強化例外處理與程式邏輯"
+      ],
+      "technicalImplementation": [
+        "使用 BeautifulSoup 解析網頁結構",
+        "整合 Pandas 處理與整理資料",
+        "設計重試與錯誤處理機制"
+      ],
+      "galleryImages": ["./img/python69.png"],
+      "completionDate": "2025年3月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "個人作品集網站", "id": 5 },
+      "nextProject": { "title": "Java 計算機 GUI", "id": 7 }
+    }
+  },
+  {
+    "project": {
+      "id": 7,
+      "title": "Java 計算機 GUI",
+      "category": "Java 開發",
+      "date": "完成日期：2025年2月",
+      "tags": ["Java", "Swing", "GUI"],
+      "mainImage": "./img/計算機.png",
+      "description": "使用 Java Swing 開發的桌面計算機應用程式，實作加減乘除運算與直觀的使用者介面。",
+      "researchGoals": [
+        "熟悉 Java Swing GUI 開發",
+        "實作事件處理與運算邏輯",
+        "提升介面互動性"
+      ],
+      "technicalImplementation": [
+        "使用 Java Swing 建立 GUI 元件",
+        "實作按鈕事件與運算邏輯",
+        "處理例外輸入與錯誤提示"
+      ],
+      "galleryImages": [],
+      "completionDate": "2025年2月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "網頁數據爬蟲系統", "id": 6 },
+      "nextProject": { "title": "Java Android 應用程式練習", "id": 8 }
+    }
+  },
+  {
+    "project": {
+      "id": 8,
+      "title": "Java Android 應用程式練習",
+      "category": "Java 專案",
+      "date": "完成日期：2024年5月",
+      "tags": ["Java", "Android", "UI", "資料傳遞"],
+      "mainImage": "./img/javaApp.png",
+      "description": "使用 Java 開發的 Android 應用程式，練習基本的介面設計、資料傳遞與功能實作。",
+      "researchGoals": [
+        "熟悉 Android UI 設計",
+        "實作畫面間資料傳遞",
+        "提升功能實作能力"
+      ],
+      "technicalImplementation": [
+        "透過 Android Studio 開發",
+        "使用 Intent 傳遞資料",
+        "設計多頁介面"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年5月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "Java 計算機 GUI", "id": 7 },
+      "nextProject": { "title": "投票系統", "id": 9 }
+    }
+  },
+  {
+    "project": {
+      "id": 9,
+      "title": "投票系統",
+      "category": "合作比賽",
+      "date": "完成日期：2024年6月",
+      "tags": ["投票系統", "Angular", "Web"],
+      "mainImage": "./img/商經比賽Ｅ起區投票.png",
+      "description": "商經比賽參賽作品，設計一個方便使用者操作的投票系統，著重安全性、匿名性與公平性。",
+      "researchGoals": [
+        "實現簡易的投票功能",
+        "兼顧安全性、匿名性與公平性",
+        "提升使用者辨識體驗"
+      ],
+      "technicalImplementation": [
+        "使用 Angular CLI 建立專案架構",
+        "設計資料隱藏與保護機制",
+        "規劃使用者驗證流程"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年6月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "Java Android 應用程式練習", "id": 8 },
+      "nextProject": { "title": "讓愛跨越流浪", "id": 10 }
+    }
+  },
+  {
+    "project": {
+      "id": 10,
+      "title": "讓愛跨越流浪",
+      "category": "網頁合作設計",
+      "date": "完成日期：2024年7月",
+      "tags": ["Web 開發", "動物關懷", "UI 設計"],
+      "mainImage": "./img/讓愛跨越流浪.png",
+      "description": "以溫馨風格設計主視覺，傳達流浪動物關懷理念。",
+      "researchGoals": [
+        "提升流浪動物關懷意識",
+        "實作溫馨品牌形象",
+        "優化使用者瀏覽體驗"
+      ],
+      "technicalImplementation": [
+        "HTML/CSS 切版與佈局",
+        "加入互動效果與動畫",
+        "設計品牌圖像資產"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年7月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [
+        { "text": "GitHub 專案頁面", "url": "https://github.com/sharon111032010/WebDesignFinalProject113" },
+        { "text": "網站連結", "url": "https://sharon111032010.github.io/WebDesignFinalProject113/" }
+      ],
+      "previousProject": { "title": "投票系統", "id": 9 },
+      "nextProject": { "title": "飲料品牌網頁設計", "id": 11 }
+    }
+  },
+  {
+    "project": {
+      "id": 11,
+      "title": "飲料品牌網頁設計",
+      "category": "網頁設計",
+      "date": "完成日期：2024年8月",
+      "tags": ["Web 開發", "品牌設計", "UI/UX"],
+      "mainImage": "./img/烏弄.png",
+      "description": "模擬烏弄品牌風格進行網頁設計，展現商業風格切版能力。",
+      "researchGoals": [
+        "建立品牌視覺識別",
+        "優化使用者互動體驗",
+        "實作響應式設計"
+      ],
+      "technicalImplementation": [
+        "HTML/CSS 切版與佈局",
+        "JavaScript 實現互動功能"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年8月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "讓愛跨越流浪", "id": 10 },
+      "nextProject": { "title": "網頁展示奶酪品牌形象", "id": 12 }
+    }
+  },
+  {
+    "project": {
+      "id": 12,
+      "title": "網頁展示奶酪品牌形象",
+      "category": "網頁設計",
+      "date": "完成日期：2024年2月",
+      "tags": ["品牌", "UI", "Web"],
+      "mainImage": "./img/網頁展示奶酪.png",
+      "description": "設計一頁式品牌網站，展現奶酪產品特色與視覺風格。",
+      "researchGoals": [
+        "建立品牌主視覺",
+        "優化顧客瀏覽體驗",
+        "單頁網站切版設計"
+      ],
+      "technicalImplementation": [
+        "HTML/CSS 切版",
+        "加入圖像素材與互動效果",
+        "品牌圖像資產處理"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年2月",
+      "developer": "陳雪葶、陳鈺晴、劉柏緯、范采芮、林采霓、賴羿翰",
+      "supervisor": null,
+      "links": [
+        { "text": "GitHub 專案頁面", "url": "https://github.com/NUTCGroup/NUTCGroup.github.io" },
+        { "text": "網站連結", "url": "https://nutcgroup.github.io" }
+      ],
+      "previousProject": { "title": "飲料品牌網頁設計", "id": 11 },
+      "nextProject": { "title": "Apple 官方頁面再設計", "id": 13 }
+    }
+  },
+  {
+    "project": {
+      "id": 13,
+      "title": "Apple 官方頁面再設計",
+      "category": "UI/UX 設計",
+      "date": "完成日期：2024年3月",
+      "tags": ["Figma", "UI/UX", "設計"],
+      "mainImage": "./img/appFigma.png",
+      "description": "以 Figma 重構 Apple 首頁排版，練習 UI/UX 設計流程。",
+      "researchGoals": [
+        "分析 Apple 品牌風格",
+        "重構使用者流程與界面",
+        "設計互動原型"
+      ],
+      "technicalImplementation": [
+        "Figma 繪製 wireframe 與 prototype",
+        "響應式 UI 設計",
+        "整理設計系統元件庫"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年3月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "網頁展示奶酪品牌形象", "id": 12 },
+      "nextProject": { "title": "浦燒鰻魚版面設計", "id": 14 }
+    }
+  },
+  {
+    "project": {
+      "id": 14,
+      "title": "浦燒鰻魚版面設計",
+      "category": "版面設計",
+      "date": "完成日期：2024年9月",
+      "tags": ["版面設計", "視覺排版"],
+      "mainImage": "./img/Ai_230427_浦燒镘魚版面設計.png",
+      "description": "美編版面設計練習，聚焦產品頁面排版與品牌觀感呈現。",
+      "researchGoals": [
+        "理解品牌視覺風格",
+        "實作高水準版面排版設計",
+        "分析視覺流程與閱讀動線"
+      ],
+      "technicalImplementation": [
+        "繪製版面 wireframe",
+        "使用色彩與字體建立品牌感",
+        "整理並輸出高品質設計規格"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年9月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "Apple 官方頁面再設計", "id": 13 },
+      "nextProject": { "title": "個人技能展示頁面", "id": 15 }
+    }
+  },
+  {
+    "project": {
+      "id": 15,
+      "title": "個人技能展示頁面",
+      "category": "Web 開發",
+      "date": "完成日期：2024年10月",
+      "tags": ["HTML", "CSS", "前端技能"],
+      "mainImage": "./img/個人網頁程式語言.png",
+      "description": "設計介紹頁，展示熟悉的前端開發語言與技能，是最初完成的個人網頁。",
+      "researchGoals": [
+        "建立個人技能展示平台",
+        "實現個人網站設計",
+        "呈現多項專案內容"
+      ],
+      "technicalImplementation": [
+        "HTML5 + CSS3 完成頁面切版",
+        "Figma 設計原型與佈局"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年10月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [
+        { "text": "GitHub 專案頁面", "url": "https://github.com/101152sharon/mainHome" },
+        { "text": "網站連結", "url": "https://101152sharon.github.io/mainHome/" }
+      ],
+      "previousProject": { "title": "浦燒鰻魚版面設計", "id": 14 },
+      "nextProject": { "title": "頁面設計（純 CSS）", "id": 16 }
+    }
+  },
+  {
+    "project": {
+      "id": 16,
+      "title": "頁面設計（純 CSS）",
+      "category": "CSS 練習",
+      "date": "完成日期：2024年11月",
+      "tags": ["HTML", "CSS", "互動"],
+      "mainImage": "./img/singUpPageOkImg純css.png",
+      "description": "不使用 JavaScript，僅以 HTML 和 CSS 打造的互動式註冊頁面介面。",
+      "researchGoals": [
+        "實現純 CSS 的互動效果",
+        "提升前端切版能力",
+        "練習表單設計"
+      ],
+      "technicalImplementation": [
+        "HTML5 結構化內容",
+        "CSS3 動畫與特效設計",
+        "響應式設計實作"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年11月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "個人技能展示頁面", "id": 15 },
+      "nextProject": { "title": "星際大戰爭（終端機遊戲）", "id": 17 }
+    }
+  },
+  {
+    "project": {
+      "id": 17,
+      "title": "星際大戰爭（終端機遊戲）",
+      "category": "期末報告",
+      "date": "完成日期：2024年12月",
+      "tags": ["C", "終端機遊戲", "演算法"],
+      "mainImage": "./img/星際大戰爭.png",
+      "description": "C 語言期末報告，以星際大戰為靈感製作的終端機文字飛行射擊遊戲，玩家可用方向鍵控制戰機移動、射擊得分，並支援暫停與結束遊戲。",
+      "researchGoals": [
+        "練習終端機文字介面繪製",
+        "實作遊戲迴圈與鍵盤輸入處理",
+        "設計計分與暫停機制"
+      ],
+      "technicalImplementation": [
+        "使用 C 語言撰寫遊戲邏輯與畫面更新",
+        "處理鍵盤輸入（a/s/d/w 控制、p 暫停、e 結束）",
+        "設計 ASCII 字元繪製戰機與場景"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年12月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "頁面設計（純 CSS）", "id": 16 },
+      "nextProject": { "title": "開源協作與版本控制", "id": 18 }
+    }
+  },
+  {
+    "project": {
+      "id": 18,
+      "title": "開源協作與版本控制",
+      "category": "GitHub",
+      "date": "完成日期：持續累積中",
+      "tags": ["Git", "GitHub", "版本控制"],
+      "mainImage": "./img/github.png",
+      "description": "在 GitHub 上管理多個練習與專題 repository，熟悉分支、提交與版本控制的基本操作流程。",
+      "researchGoals": [
+        "了解 Git 版本控制系統",
+        "掌握 GitHub 的基本操作",
+        "學習管理專案版本與分支"
+      ],
+      "technicalImplementation": [
+        "使用 Git 指令進行版本控制",
+        "在 GitHub 上建立並管理多個 repository",
+        "撰寫 README 說明專案內容"
+      ],
+      "galleryImages": [],
+      "completionDate": "持續累積中",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [
+        { "text": "GitHub 個人頁面", "url": "https://github.com/sharon111032010" }
+      ],
+      "previousProject": { "title": "星際大戰爭（終端機遊戲）", "id": 17 },
+      "nextProject": { "title": "Angular 前端練習", "id": 19 }
+    }
+  },
+  {
+    "project": {
+      "id": 19,
+      "title": "Angular 前端練習",
+      "category": "前端框架練習",
+      "date": "完成日期：持續累積中",
+      "tags": ["Angular", "TypeScript", "SCSS"],
+      "mainImage": null,
+      "description": "累積多個 Angular 練習與正式小專案 repository，練習元件化開發、路由設計與狀態管理。",
+      "researchGoals": [
+        "熟悉 Angular 框架特性",
+        "練習元件化與路由設計",
+        "培養狀態管理與 API 串接能力"
+      ],
+      "technicalImplementation": [
+        "使用 Angular CLI 建立專案",
+        "實作元件化開發與路由",
+        "練習串接 RESTful API"
+      ],
+      "galleryImages": [],
+      "completionDate": "持續累積中",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [
+        { "text": "正式小專案 repo", "url": "https://github.com/sharon111032010/angular_projest" },
+        { "text": "練習 repo", "url": "https://github.com/sharon111032010/angular_practice" }
+      ],
+      "previousProject": { "title": "開源協作與版本控制", "id": 18 },
+      "nextProject": { "title": "Netflix 動畫剪輯", "id": 20 }
+    }
+  },
+  {
+    "project": {
+      "id": 20,
+      "title": "Netflix 動畫剪輯",
+      "category": "動畫剪輯",
+      "date": "完成日期：2024年9月",
+      "tags": ["影片剪輯", "After Effects"],
+      "mainImage": "./img/netfix.png",
+      "description": "使用 Adobe After Effects 剪輯 Netflix 風格片段，練習動畫特效與轉場技巧。",
+      "researchGoals": [
+        "實現動畫效果與轉場銜接",
+        "學習影片動畫節奏掌握",
+        "提升影片剪輯能力"
+      ],
+      "technicalImplementation": [
+        "使用 Adobe After Effects 剪輯影片",
+        "實現動畫特效與過渡",
+        "調整音效與視覺效果"
+      ],
+      "galleryImages": [],
+      "completionDate": "2024年9月",
+      "developer": "陳雪葶",
+      "supervisor": null,
+      "links": [],
+      "previousProject": { "title": "Angular 前端練習", "id": 19 },
+      "nextProject": null
+    }
+  }
 ]
